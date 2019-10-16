@@ -141,12 +141,13 @@
                                         <input type="email" name="Email" class="form-control mb-30" placeholder="Email *" required = "true">
                                     </div>
                                     <div class="col-lg-6">
-                                        <input list="subject" type = "text" name="Subject" class="form-control mb-30" placeholder="Subject *" required = "true">
-                                        <datalist id ="subject">
-                                        <option value="Booking">
-                                        <option value="Collaboration">
-                                        <option value="Other">
-                                        </datalist>
+                                      <select class="form-control mb-30" required = "true">
+                                        <option value="" disabled selected hidden>Subject *</option>
+                                        <option value="Collaboration">Collaboration</option>
+                                        <option value="Booking">Booking</option>
+                                        <option value="Licensing">Licensing</option>
+                                        <option value="Other">Other</option>
+                                      </select>
                                     </div>
                                     <div class="col-12">
                                         <textarea name="message" class="form-control mb-30" required = "true" placeholder="Message *"></textarea>

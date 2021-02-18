@@ -109,28 +109,52 @@
     <!-- Header Area End -->
 
     <!-- Event Welcome Area Start -->
-    <section class="event-welcome-area bg-overlay bg-img jarallax" style="background-image: url(https://i.ibb.co/MBmjMYY/tour.jpg);">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-9">
-                    <div class="event-welcome-text text-center">
-                        <span></span>
-                        <h2>Tour Dates</h2>
-                        <p>Here you get all the information about my upcoming gigs</p>
-                        <br>
-                        <p>_____________________</p>
-                        <br>
-                        <h8>Next gig is in </h8>
-                        <div class="coming-soon-clock mt-30 mb-30">
-                            <div id="clock"></div>
-                        </div>
-                        <div class="event-btn-group">
+
+    <!--    <section class="event-welcome-area bg-overlay bg-img jarallax" style="background-image: url(https://i.ibb.co/MBmjMYY/tour.jpg);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-9">
+                        <div class="event-welcome-text text-center">
+                            <span></span>
+                            <h2>Tour Dates</h2>
+                            <p>Here you get all the information about my upcoming gigs</p>
+                            <br>
+                            <p>_____________________</p>
+                            <br>
+                            <h8>Next gig is in </h8>
+                            <div class="coming-soon-clock mt-30 mb-30">
+                                <div id="clock"></div>
+                            </div>
+                            <div class="event-btn-group">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>-->
+      <!-- Header Area End -->
+      <scection class="blog-details-post-thumbnail-area bg-overlay bg-img jarallax">
+        <div class="header-img">
+          <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                  <div class="col-12">
+                      <div class="post-title-text">
+                          <h2>Tour Dates</h2>
+                          <div class="chart-details-content mb-80">
+                              <p href="#">Here you can see all my Life performances</p>
+                                                            <p href="#">_____________________________________________</p>
+                                                            <p>Next gig is in</p>
+                                <div class="coming-soon-clock mt-30 mb-30">
+                                                          <div id="clock"></div>
+                                                      </div>
+                                                      <div class="event-btn-group">
+                                                      </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div></div>
+        </section>
     <!-- Event Welcome Area End -->
 
     <!-- Event Search Area Start -->
@@ -459,6 +483,7 @@ Riddestic - Southtyrol Riddim, Dubstep & DnB Lovers
                                                           font-style: normal;
 
                                                       }
+
             h6 {
                font-size: 10px;
                color: grey;
@@ -466,11 +491,12 @@ Riddestic - Southtyrol Riddim, Dubstep & DnB Lovers
                font-weight: lighter;
                text-align: right;
             }
-            h16{
-              font-family: quantumregular;
-              font-size: 35px;
-              color:black;
-              letter-spacing: 0px;
+            .header-img {
+              width: 100%;
+              height: 600px;
+              background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('https://i.ibb.co/MBmjMYY/tour.jpg');
+              background-size: cover;
+
             }
             h7 {
                font-size: 3px;
@@ -478,6 +504,12 @@ Riddestic - Southtyrol Riddim, Dubstep & DnB Lovers
                font-family: arial;
                font-weight: lighter;
                text-align: center;
+            }
+            h16{
+              font-family: quantumregular;
+              font-size: 35px;
+              color:black;
+              letter-spacing: 0px;
             }
             h8 {
                font-size: 20px;
@@ -508,6 +540,26 @@ height: 220px;
 iframe{
 width: 560px;
 height: 315px;
+}
+}
+@media screen and (max-width: 768px) {
+.header-img{
+  height: 500px;
+}
+}
+
+@media screen and (min-width: 767px) {
+.header-img{
+}
+}
+@media screen and (max-width: 1123px) {
+h76{
+  display: none;
+}
+}
+
+@media screen and (min-width: 767px) {
+h76{
 }
 }
 @media screen and (max-width: 768px) {
@@ -547,7 +599,6 @@ font-size: 1px;
 font-size: 1px;
 }
 }
-
 @media screen and (min-width: 767px) {
 .zeile{
 display: none;

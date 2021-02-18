@@ -114,20 +114,36 @@ html, body {
     <!-- Header Area End -->
 
     <!-- Podcast Thumbnail Area Start -->
-    <section class="blog-details-post-thumbnail-area bg-overlay bg-img jarallax" style="background-image: url(https://i.ibb.co/txK13kV/contact.jpg);">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12">
-                    <div class="post-title-text">
-                        <h2>About</h2>
-                        <div class="chart-details-content mb-80">
-                            <p href="#">Here you can read through my whole music career as a artist and producer</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--<section class="blog-details-post-thumbnail-area bg-overlay bg-img jarallax" style="background-image: url(https://i.ibb.co/6YWKhWw/media.jpg);">
+          <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                  <div class="col-12">
+                      <div class="post-title-text">
+                          <h2>Media</h2>
+                          <div class="chart-details-content mb-80">
+                              <p href="#">Here you can find all media of me and my gigs! Instagram: @sotschiofficial</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>-->
+      <!-- Header Area End -->
+      <scection class="blog-details-post-thumbnail-area bg-overlay bg-img jarallax">
+        <div class="header-img">
+          <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                  <div class="col-12">
+                      <div class="post-title-text">
+                          <h2>About</h2>
+                          <div class="chart-details-content mb-80">
+                              <p href="#">Here you can read through my whole music career as a artist and producer</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div></div>
+        </section>
     <!-- Podcast Thumbnail Area End -->
 
     <!-- Audio Player Area Start -->
@@ -226,12 +242,20 @@ His music can be described as a mixture of Virtual Riot, Skrillex, DJ Snake, Ept
                                                             font-style: normal;
 
                                                         }
+
               h6 {
                  font-size: 10px;
                  color: grey;
                  font-family: arial;
                  font-weight: lighter;
                  text-align: right;
+              }
+              .header-img {
+                width: 100%;
+                height: 600px;
+                background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('https://i.ibb.co/txK13kV/contact.jpg');
+                background-size: cover;
+
               }
               h7 {
                  font-size: 3px;
@@ -323,6 +347,16 @@ His music can be described as a mixture of Virtual Riot, Skrillex, DJ Snake, Ept
   .zeile{
   font-size: 1px;
   }
+  }
+  @media screen and (max-width: 768px) {
+  .header-img{
+    height: 500px;
+  }
+  }
+
+  @media screen and (min-width: 767px) {
+  .header-img{
+
   }
 
   @media screen and (min-width: 767px) {

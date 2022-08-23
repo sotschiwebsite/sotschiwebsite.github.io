@@ -21,6 +21,13 @@
 html, body {
   overflow: hidden;
 }
+img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  align:center;
+}
 </style>
 <body>
     <!-- Preloader -->
@@ -118,9 +125,9 @@ color: White;
     <!-- Header Area End -->
 
     <!-- Welcome Area Start -->
-    <video autoplay muted loop id="videoBG">
-      <source src="bgvidindex.mp4" type="video/mp4">
-    </video>
+    <picture id="videoBG">
+      <img src="https://i.postimg.cc/k4rDJYGB/Website-Background-3-min-1.jpg" alt="" class="imgback">
+    </picture>
     <container>
       <style>
       h11{
@@ -143,13 +150,24 @@ color: White;
   }
       </style>
       <h11>&nbsp;&nbsp;&nbsp;&nbsp;Sotschi 2022 © All Rights Reserved.</h11>
-        </container
+
+    </container>
     <container>
     <center>
       <br><br><br><br><br><br><br><br><br><br><br><br>
-      <h10>SOTSCHI</h10>
-      <br>
-      <span class="brnew"><a href="about.html" class="btnenter">Enter Website</a></center>
+      <style>
+.box{width:300px; height:50px; margin: 0 auto; text-align:center; line-height:50px;}
+.fadeInUp{animation:fadeInUp 2s ease backwards;}
+@keyframes fadeInUp{
+  0%{transform:translate(0px, 50px); opacity: 0;}
+  100%{transform:translate(0px, 0); opacity: 1;}
+}
+</style>
+    <h10 class="box fadeInUp" style="animation-delay:200ms;">SOTSCHI</h10>
+
+      <br><br><br>
+    <div class="box fadeInUp" style="animation-delay:200ms;"><span class="brnew"><a href="about.html" class="btnenter">Enter Website</a></center>
+      </div>
     </container>
     <container>
       <style>
@@ -200,8 +218,9 @@ h13{
 }
 }
       </style>
+
       <br><h12>Photo: Julian Geiser&nbsp;&nbsp;&nbsp;&nbsp;</h12>
-      <br><h13>Video: Julian Geiser&nbsp;&nbsp;&nbsp;&nbsp;</h13>
+      <br><h13>Photo: Julian Geiser&nbsp;&nbsp;&nbsp;&nbsp;</h13>
     </container>
         <div class="container h-100">
             <div class="row h-100 align-items-center">

@@ -8,7 +8,7 @@
     // ****************************
 
     razo_window.on('load', function () {
-        $('#preloader').fadeOut('1000', function () {
+        $('#preloader').fadeOut('100', function () {
             $(this).remove();
         });
     });

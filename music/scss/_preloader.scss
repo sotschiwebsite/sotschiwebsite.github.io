@@ -39,13 +39,13 @@
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-    animation: sk-bounce 2.0s infinite ease-in-out;
+    -webkit-animation: sk-bounce 500ms infinite ease-in-out;
+    animation: sk-bounce 500ms infinite ease-in-out;
 }
 
 .double-bounce2 {
-    -webkit-animation-delay: -1.0s;
-    animation-delay: -1.0s;
+    -webkit-animation-delay: -250ms;
+    animation-delay: -250ms;
 }
 
 @-webkit-keyframes sk-bounce {

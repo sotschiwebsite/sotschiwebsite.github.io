@@ -100,7 +100,7 @@ html, body {
     </section>-->
     <!-- Header Area End -->
     <section class="blog-details-post-thumbnail-area bg-overlay bg-img jarallax">
-      <div class="header-img">
+      <div class="header-img wow fadeIn" data-wow-delay="200ms">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -130,6 +130,13 @@ html, body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  transition: 500ms;
+
+}
+.header-img:hover {
+    filter: saturate(40%);
+  }
+}
 
 }
 .thumbnail {
@@ -377,7 +384,7 @@ display: none;
 
                                                   <div class="main-footer-area section-padding-80-0">
                       </footer>
-                      <h6>Sotschi 2022 © All Rights Reserved. &nbsp;&nbsp;&nbsp;&nbsp;
+                          <h6 class="wow fadeInBig fadeInLeftBig" data-wow-delay="100ms">Sotschi 2022 © All Rights Reserved. &nbsp;&nbsp;&nbsp;&nbsp;</h6>
                         <a class="text-dark" href=""></a>
                               <!-- Footer Logo -->
                           </div>

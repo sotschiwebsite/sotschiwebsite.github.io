@@ -2248,8 +2248,7 @@ input:focus {
   border-radius: 20%;
 }
 .fa:hover {
-  opacity: 0.7;
-  color:#0d0d0d;
+  color:#ffff;
 }
 #videoBG {
   position: fixed;

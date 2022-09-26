@@ -338,7 +338,6 @@ input:focus {
 
 .btn:focus {
   box-shadow: none; }
-
 .razo-btn {
   position: relative;
   z-index: 1;

@@ -563,6 +563,7 @@ html, body {
                font-weight: lighter;
                text-align: right;
             }
+            @media (max-width: 767px) {
             .header-img {
               width: 100%;
               height: 700px;
@@ -571,7 +572,17 @@ html, body {
               background-repeat: no-repeat;
               background-attachment: fixed;
 
-            }
+            }}
+            @media (min-width: 768px) {
+            .header-img {
+              width: 100%;
+              height: 700px;
+              background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('https://i.postimg.cc/qvVty4sz/music.jpg') no-repeat center center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+
+            }}
             h16{
               font-family: quantumregular;
               font-size: 35px;

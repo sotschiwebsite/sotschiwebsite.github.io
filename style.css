@@ -1046,27 +1046,24 @@ input:focus {
         font-weight: 600;
         color: #dc2878; }
 
-.featured-trending-video {
-  position: relative;
-  z-index: 1;
-  display: block;
-  width: 100%;
-  height: 600px; }
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .featured-trending-video {
-      height: 470px; } }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .featured-trending-video {
-      height: 420px; } }
-  @media only screen and (max-width: 767px) {
-    .featured-trending-video {
-      height: 260px; } }
-  .featured-trending-video iframe {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    border-radius: 5px; }
+        .featured-trending-video {
+          width: 600px;
+          height: 300px;
+         }
+          @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            .featured-trending-video {
+              width: 720px;
+              height: 380px; }}
+          @media only screen and (min-width: 768px) and (max-width: 991px) {
+            .featured-trending-video {
+              width: 620px;
+              height: 380px; }}
+          @media only screen and (max-width: 767px) {
+            .featured-trending-video {
+              width: 410px;
+              height: 250px; } }
+          .featured-trending-video iframe {
+            border-radius: 5px; }
 
 .razo-blog-masonary-single-item {
   position: relative;

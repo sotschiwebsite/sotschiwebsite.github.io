@@ -1049,6 +1049,8 @@ input:focus {
         .featured-trending-video {
           width: 600px;
           height: 300px;
+          filter: saturate(40%);
+          transition: 500ms;
          }
           @media only screen and (min-width: 992px) and (max-width: 1199px) {
             .featured-trending-video {
@@ -1065,6 +1067,10 @@ input:focus {
           .featured-trending-video iframe {
             border-radius: 5px; }
 
+    .featured-trending-video:hover{
+      filter: saturate(100%);
+      transform: scale(1.03);
+    }
 .razo-blog-masonary-single-item {
   position: relative;
   z-index: 1;
@@ -2035,7 +2041,7 @@ input:focus {
             margin-right: 15px; } }
         .single-razo-event-area .event-content .event-meta a i {
           font-size: 14px;
-          color: #dc2878; }
+          color: #FC5E14; }
           @media only screen and (max-width: 767px) {
             .single-razo-event-area .event-content .event-meta a i {
               font-size: 12px; } }
@@ -2043,7 +2049,7 @@ input:focus {
           margin-right: 0; }
         .single-razo-event-area .event-content .event-meta a:hover, .single-razo-event-area .event-content .event-meta a:focus {
           box-shadow: none;
-          color: #dc2878; }
+          color: #FC5E14; }
     .single-razo-event-area .event-content p {
       margin-bottom: 15px; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {

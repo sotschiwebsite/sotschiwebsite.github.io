@@ -66,6 +66,7 @@ html, body {
             align-items: center;
             flex-direction: column;
         }
+      @media screen and (min-width: 767px) {
      .btnenter{
        position: relative;
        z-index: 1;
@@ -91,9 +92,34 @@ html, body {
              font-size: 16px;
                     font-weight: 600;
     }
-        .header404{
-            font-size: 100px;
-        }
+  }
+  @media screen and (max-width: 768px) {
+ .btnenter{
+   position: relative;
+   z-index: 1;
+   min-width: 200px;
+   height: 65px;
+   line-height: 65px;
+   font-size: 16px;
+   font-weight: 600;
+   display: inline-block;
+   padding: 0 30px;
+   text-align: center;
+   text-transform: uppercase;
+   background-color: #FC5E14;
+   color: #ffffff;
+   border: none;
+   border-radius: 13px;
+   -webkit-transition-duration: 500ms;
+   -o-transition-duration: 500ms;
+   transition-duration: 500ms; }
+.btnenter:hover{
+  background-color: #873812;
+  color: white;
+         font-size: 16px;
+                font-weight: 600;
+}
+}
         .content404{
             text-align: center;
 			color: white;
@@ -102,7 +128,7 @@ html, body {
 </head>
 <body>
     <main>
-        <center><h16 class="header404 wow fadeInDownBig" data-wow-delay="300ms">SOTSCHI</h16>
+        <center><h16 class="wow fadeInDownBig" data-wow-delay="300ms">SOTSCHI</h16>
         <p class="wow fadeIn" data-wow-delay="300ms">This is the official website of the artist/producer!</p>
         </div>
         </center>
@@ -216,6 +242,9 @@ html, body {
             background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://i.postimg.cc/0j1y4cbC/Indexpic2022-min.jpg');
           background-size: cover;
       }
+      body:hover{
+        box-shadow: inset 0 0 50px #000, inset 0 0 50px #000, inset 0 0 50px #000;
+       }
       }
       @media (max-height: 502px) {
         #videoBG{
@@ -267,11 +296,21 @@ html, body {
              font-weight: lighter;
              text-align: right;
           }
-          h16{
+          @media screen and (min-width: 768px) {
+            h16{
             font-family: quantumregular;
-            font-size: 135px;
+            font-size: 100px;
             color:white;
             letter-spacing: -6px;
+          }
+        }
+          @media screen and (max-width: 767px) {
+            h16{
+              font-family: quantumregular;
+              font-size: 75px;
+              color:white;
+              letter-spacing: -6px;
+            }
           }
           h7 {
              font-size: 3px;

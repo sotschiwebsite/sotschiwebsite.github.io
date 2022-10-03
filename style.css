@@ -1051,6 +1051,8 @@ input:focus {
           height: 300px;
           filter: saturate(40%);
           transition: 500ms;
+          overflow-x: hidden;
+          margin-left: 0px;
          }
           @media only screen and (min-width: 992px) and (max-width: 1199px) {
             .featured-trending-video {

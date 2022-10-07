@@ -486,10 +486,16 @@ input:focus {
       font-weight: 600; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
-          color: #191919; } }
+          color: #fff; } }
       @media only screen and (max-width: 767px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
-          color: #191919; } }
+          color: #fff;
+          font-size: 25px;
+          padding-bottom: 50px;
+          padding-top: 50px;
+        }
+        }
+
       .classy-nav-container .classy-navbar .classynav ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li a:hover {
         color: #FC5E14;
         font-weight: 600; }

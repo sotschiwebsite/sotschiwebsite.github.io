@@ -144,7 +144,7 @@ html, body {
                             <h8> Email: contact@sotschiofficial.com</h8></h2>
                             <br>
                             <!-- Form -->
-                                <form action="https://formspree.io/f/xoqpzjaz" method="POST" class="wow fadeInUp" data-wow-delay="300ms">
+                              <form id="my-form" action="https://formspree.io/f/xoqpzjaz" method="POST" class="wow fadeInUp" data-wow-delay="300ms">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <input type="text" name="Name" class="form-control mb-30" placeholder="Name *" required = "true">
@@ -401,7 +401,38 @@ html, body {
             <script src="js/razo.bundle.js"></script>
             <!-- Active -->
             <script src="js/default-assets/active.js"></script>
+            <script>
+                var form = document.getElementById("my-form");
 
+                async function handleSubmit(event) {
+                  event.preventDefault();
+                  var status = document.getElementById("my-form-status");
+                  var data = new FormData(event.target);
+                  fetch(event.target.action, {
+                    method: form.method,
+                    body: data,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                  }).then(response => {
+                    if (response.ok) {
+                      status.innerHTML = "Thanks for your submission!";
+                      form.reset()
+                    } else {
+                      response.json().then(data => {
+                        if (Object.hasOwn(data, 'errors')) {
+                          status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                        } else {
+                          status.innerHTML = "Oops! There was a problem submitting your form"
+                        }
+                      })
+                    }
+                  }).catch(error => {
+                    status.innerHTML = "Oops! There was a problem submitting your form"
+                  });
+                }
+                form.addEventListener("submit", handleSubmit)
+            </script>
             </body>
 
             </html>

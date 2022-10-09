@@ -377,6 +377,11 @@ section {
     background-size: cover;
     background-attachment: fixed;
   }
+  @media only screen and (max-width: 768px) {
+    .sectionmerch {
+      background-attachment: local;
+    }
+  }
 
 .section-title {
   text-align: center;

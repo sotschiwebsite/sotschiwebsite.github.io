@@ -256,14 +256,63 @@ h6 {
   background-size: cover;
   position: relative;
 }
-@media only screen and (max-width: 768px) {
-  #hero {
-    background-attachment: local;
+.scroll-down {
+  height: 100px;
+  width: 300px;
+  border: 2px solid transparent;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 100px;
+  border-radius: 50px;
+  cursor: pointer;
+  float: none;
+}
+.scroll-down::before,
+.scroll-down::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 60px;
+  width: 60px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border: 2px solid white;
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+  top: 30%;
+  animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@keyframes scroll-down {
+  0% {
+    /* top:20%; */
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
   }
 }
-@media (min-width: 992px) {
-  #hero {
-    padding-left: 0px;
+@media only screen and (max-width: 768px) {
+  .scroll-down {
+    height: 60px;
+    width: 200px;
+  }
+  .scroll-down::before,
+  .scroll-down::after {
+    height: 35px;
+    width: 35px;
   }
 }
 

@@ -373,7 +373,7 @@ section {
     padding: 60px 0;
     margin-top: 100px;
     overflow: hidden;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.6) ), url("https://i.postimg.cc/T20VBx0Z/background-merch.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.6) ), url("https://i.postimg.cc/T20VBx0Z/background-merch.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
   }
@@ -774,34 +774,49 @@ section {
   text-transform: uppercase;
   font-weight: 700;
 }
-@media (max-width: 768px) {
+@media (max-width: 500px){
   .resume h25 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
   }
-}
-@media (max-width: 768px) {
   .resume h26 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
   }
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 991px){
+  .resume h25,
+  .resume h26{
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .ortschaft h25,
+  .ortschaft h26{
+    float: right;
+  }
+  .datum h25,
+  .datum h26{
+    float: left;
+}
+}
+@media only screen and (max-width: 767px){
+  .festivalname h25,
   .festivalname h26 {
     float: right;
   }
-  .festivalname h25 {
-    float: right;
+}
+@media only screen and (max-width: 440px){
+  .resume h25,
+  .resume h26{
+    font-size: 13px;
+    font-weight: 600;
   }
 }
-@media (max-width: 500px){
-  .resume h25 {
+@media only screen and (max-width: 388px){
+  .resume h25,
+  .resume h26{
     font-size: 12px;
-    font-weight: 600;
-  }
-  .resume h26 {
-    font-size: 12px;
-    font-weight: 600;
+    font-weight: 400;
   }
 }
 @media (max-width: 768px) {

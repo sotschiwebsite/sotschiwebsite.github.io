@@ -248,6 +248,44 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.shopsection h1 {
+  float: left;
+  max-width: 300px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fff;
+  transition: 500ms;
+}
+.shopsection h2 {
+  float: right;
+  max-width: 300px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fff;
+  transition: 500ms;
+}
+.shopsection h1:hover,
+ .shopsection h2:hover{
+  transform: scale(1.1);
+}
+.merchshop{
+    height: 900px;
+    background: url("https://i.postimg.cc/y6yQWWsf/Index-Wallpaper.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+  @media only screen and (max-width: 767px) {
+    .hero {
+      background-attachment: local;
+    }
+  }
 .hero {
   width: 100%;
   height: 100vh;
@@ -449,6 +487,11 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  color: #fff;
+}
+.section-title-2 h30 {
+  font-size: 72px;
+  font-weight: bold;
   color: #fff;
 }
 

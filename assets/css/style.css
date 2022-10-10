@@ -255,6 +255,7 @@ h6 {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  transition: 800ms;
 }
 .scroll-down {
   height: 100px;
@@ -1635,7 +1636,7 @@ opacity: 0;
   font-size: 11px;
   margin: 0 0 5px 0;
   position: absolute;
-  right: 20px;
+  left: 20px;
 }
 
 #footer .credits {

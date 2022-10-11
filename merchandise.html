@@ -44,12 +44,50 @@
           <span></span>
       </div>
   </div>
-  <center><section id="merchandise"  class="carousel slide merchshop d-flex flex-column justify-content-center" data-ride="carousel">
-    <div class="section-title-2">
-      <h30>Merchandise</h30>
-      <p>Here you can grab some fresh beats out of the Sotschi kitchen.</p>
+  <style>
+  .section-title {
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 240px;
+    text-align: center;
+    z-index: 20;
+    width: 40%;
+
+  }
+  </style>
+  <div class="section-title">
+    <h2>Merchandise</h2>
+    <p>Here you can grab some fresh beats out of the Sotschi kitchen.</p>
+  </div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://image-cdn.hypb.st/http%3A%2F%2Fhypebeast.com%2Fimage%2F2016%2F09%2Fstreetwear-fashion-photographers-vicky-grout-2.jpg?w=1600&cbr=1&q=90&fit=max" class="d-block w-100" alt="...">
     </div>
-  </section></center><!-- End Hero -->
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/originals/ed/02/26/ed02268d007c54b17bedf7737560eebb.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/originals/28/cd/87/28cd8721b34448d7a51d1dd7786dd78f.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div><!-- End Hero -->
   <header class="d-flex flex-column justify-content-center">
   <!-- .nav-menu -->
   <section class="navigation" data-aos="fade-right">
@@ -120,6 +158,14 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
+  $(document).ready(function()
+{
+    $('.carousel').carousel({
+      interval: 6000
+    });
+
+    $('.carousel').carousel('next');
+});
     var form = document.getElementById("my-form");
 
     async function handleSubmit(event) {

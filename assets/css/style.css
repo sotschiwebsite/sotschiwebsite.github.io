@@ -36,6 +36,28 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+.carousel-item {
+  background: #000;
+  height: 600px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.carousel-item img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+}
 .back-to-top {
   position: fixed;
   visibility: hidden;

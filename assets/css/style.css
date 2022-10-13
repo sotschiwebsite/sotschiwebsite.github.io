@@ -285,7 +285,6 @@ h6 {
   width: 100%;
   margin-top: 15px;
   margin-bottom: 5px;
-      max-width: auto;
 }
 .navbar-text {
   font-size: 33px;
@@ -298,6 +297,23 @@ h6 {
   letter-spacing: 3px;
   transition: 500ms;
       font-family: "Raleway", sans-serif;
+}
+@font-face {
+    font-family: 'quantumregular';
+    src: url('fonts/quantum-webfont.woff2') format('woff2'),
+         url('fonts/quantum-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+.navbar-text-2 {
+  font-size: 33px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  letter-spacing: -2px;
+  font-weight: 0;
+  font-family: 'quantumregular';
+  transition: 500ms;
 }
 .navbar-text::after{
   content: "season ONE";
@@ -318,6 +334,9 @@ h6 {
   .navbar-text {
     font-size: 23px;
   }
+  .navbar-text-2 {
+    font-size: 23px;
+}
   .navbar-brand img{
     height: 30px;
     width: 100%;
@@ -326,7 +345,6 @@ h6 {
   .navbar-text:hover:after {
       font-size: 23px;
   }
-}
 .infinitetext2 {
 }
 .infinitetext2 span {

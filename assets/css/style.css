@@ -38,7 +38,7 @@ h6 {
 --------------------------------------------------------------*/
 .carousel-item {
   background: #000;
-  height: 700px;
+  height: 550px;
   position: relative;
   background-position: center;
   background-size: cover;
@@ -61,8 +61,8 @@ h6 {
   background-color: #953508;
 }
 .carousel-item img {
-  max-height: 700px;
-  min-height: 700px;
+  max-height: 550px;
+  min-height: 550px;
   height: 700px;
   width: 100%;
   object-fit: cover;
@@ -654,7 +654,6 @@ section {
     background-size: cover;
     background-attachment: fixed;
   }
-  @media only screen and (max-width: 768px) {
     .sectionmerch {
       background-attachment: local;
     }

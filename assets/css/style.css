@@ -340,7 +340,7 @@ h6 {
   position: relative;
   font-size: 40px;
   color: #070707;
-  background-color: #D0D0D0;
+  background-color: #fff;
   text-transform: uppercase;
   font-style: oblique;
   letter-spacing: -1px;
@@ -365,7 +365,7 @@ h6 {
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  animation: marquee 10s linear infinite;
+  animation: marquee 15s linear infinite;
 }
 
 @keyframes marquee {

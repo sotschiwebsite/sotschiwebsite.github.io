@@ -73,7 +73,7 @@ h6 {
   left: 0;
   right: 0;
   opacity: 1;
-  filter: brightness(50%);
+  filter: brightness(65%);
 }
 .back-to-top {
   position: fixed;
@@ -316,6 +316,7 @@ h6 {
 @media only screen and (max-width: 768px) {
   .navbar-text {
     font-size: 23px;
+    letter-spacing: 2px;
   }
   .navbar-brand img{
     height: 30px;
@@ -324,6 +325,7 @@ h6 {
   }
   .navbar-text:hover:after {
       font-size: 23px;
+        letter-spacing: 2px;
   }
 }
 .infinitetext2 {
@@ -348,7 +350,7 @@ h6 {
   letter-spacing: -1px;
   font-stretch: semi-expanded;
   font-weight: 1000;
-    font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 @media only screen and (max-width: 768px) {
   .infinitetext span {
@@ -666,8 +668,8 @@ section {
   font-size: 52px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   position: relative;
   color: #fff;
 }

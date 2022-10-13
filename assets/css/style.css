@@ -285,6 +285,7 @@ h6 {
   width: 100%;
   margin-top: 15px;
   margin-bottom: 5px;
+      max-width: auto;
 }
 .navbar-text {
   font-size: 33px;
@@ -319,6 +320,8 @@ h6 {
   }
   .navbar-brand img{
     height: 30px;
+    width: 100%;
+    max-width: auto;
   }
   .navbar-text:hover:after {
       font-size: 23px;

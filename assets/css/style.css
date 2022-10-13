@@ -320,6 +320,9 @@ h6 {
   .navbar-brand img{
     height: 30px;
   }
+  .navbar-text:hover:after {
+      font-size: 23px;
+  }
 }
 .infinitetext2 {
 }
@@ -336,7 +339,7 @@ h6 {
 .infinitetext span {
   position: relative;
   font-size: 40px;
-  color: #000;
+  color: #070707;
   background-color: #D0D0D0;
   text-transform: uppercase;
   font-style: oblique;
@@ -344,6 +347,11 @@ h6 {
   font-stretch: semi-expanded;
   font-weight: 1000;
     font-family: "Raleway", sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  .infinitetext span {
+  font-size: 30px;
+  }
 }
 .marquee {
   position: relative;

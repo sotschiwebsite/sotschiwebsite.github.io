@@ -378,9 +378,11 @@ h6 {
 @media only screen and (max-width: 768px) {
   .infinitetext span {
   font-size: 30px;
+  -webkit-text-stroke: 1px black;
   }
   .infinitetext a{
       font-size: 30px;
+      -webkit-text-stroke: 1px black;
   }
 }
 .marquee {

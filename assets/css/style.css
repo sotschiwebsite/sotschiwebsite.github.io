@@ -344,7 +344,7 @@ h6 {
   position: relative;
   font-size: 40px;
   color: #070707;
-  background-color: #fff;
+  background-color: #E0FF00;
   text-transform: uppercase;
   font-style: oblique;
   letter-spacing: -1px;
@@ -352,9 +352,25 @@ h6 {
   font-weight: 1000;
   font-family: "Raleway", sans-serif;
 }
+.infinitetext a{
+  position: relative;
+  font-size: 40px;
+  background-color: #E0FF00;
+  text-transform: uppercase;
+  font-style: oblique;
+  letter-spacing: -1px;
+  color: #E0FF00;
+  font-stretch: semi-expanded;
+  font-weight: 1000;
+  font-family: "Raleway", sans-serif;
+    -webkit-text-stroke: 2px black;
+}
 @media only screen and (max-width: 768px) {
   .infinitetext span {
   font-size: 30px;
+  }
+  .infinitetext a{
+      font-size: 30px;
   }
 }
 .marquee {

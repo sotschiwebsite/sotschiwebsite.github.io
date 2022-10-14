@@ -38,13 +38,23 @@ h6 {
 --------------------------------------------------------------*/
 .carousel-item {
   background: #000;
-  height: 550px;
+  height: 700px;
   position: relative;
   background-position: center;
   background-size: cover;
   bottom: 0;
   left: 0;
   right: 0;
+}
+@media only screen (max-width: 768px){
+  .carousel-item {
+      height: 550px;
+  }
+  .carousel-item img {
+    max-height: 550px;
+    min-height: 550px;
+    height: 550px;
+  }
 }
 .buttonhome button {
   font-size: 17px;
@@ -61,8 +71,8 @@ h6 {
   background-color: #953508;
 }
 .carousel-item img {
-  max-height: 550px;
-  min-height: 550px;
+  max-height: 700px;
+  min-height: 700px;
   height: 700px;
   width: 100%;
   object-fit: cover;

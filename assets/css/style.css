@@ -38,7 +38,7 @@ h6 {
 --------------------------------------------------------------*/
 .carousel-item {
   background: #000;
-  height: 700px;
+  height: 600px;
   position: relative;
   background-position: center;
   background-size: cover;
@@ -46,7 +46,7 @@ h6 {
   left: 0;
   right: 0;
 }
-@media only screen (max-width: 768px){
+@media only screen and (max-width: 768px){
   .carousel-item {
       height: 550px;
   }
@@ -71,9 +71,9 @@ h6 {
   background-color: #953508;
 }
 .carousel-item img {
-  max-height: 700px;
-  min-height: 700px;
-  height: 700px;
+  max-height: 600px;
+  min-height: 600px;
+  height: 600px;
   width: 100%;
   object-fit: cover;
   position: relative;
@@ -234,6 +234,10 @@ h6 {
 /**
 * Desktop Navigation
 */
+.navigation {
+  margin-top: -70px;
+  border-bottom: 3px solid #fff;
+}
 .navigation a{
   color: #fff;
   font-size: 16px;

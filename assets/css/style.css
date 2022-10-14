@@ -48,12 +48,12 @@ h6 {
 }
 @media only screen and (max-width: 768px){
   .carousel-item {
-      height: 550px;
+      height: 570px;
   }
   .carousel-item img {
-    max-height: 550px;
-    min-height: 550px;
-    height: 550px;
+    max-height: 570px;
+    min-height: 570px;
+    height: 570px;
   }
 }
 .buttonhome button {
@@ -358,7 +358,7 @@ h6 {
   position: relative;
   font-size: 40px;
   color: #070707;
-  background-color: #E0FF00;
+  background-color: #E4FF00;
   text-transform: uppercase;
   font-style: oblique;
   letter-spacing: -1px;
@@ -369,7 +369,7 @@ h6 {
 .infinitetext a{
   position: relative;
   font-size: 40px;
-  background-color: #E0FF00;
+  background-color: #E4FF00;
   text-transform: uppercase;
   font-style: oblique;
   letter-spacing: -1px;

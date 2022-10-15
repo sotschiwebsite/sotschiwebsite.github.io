@@ -234,6 +234,7 @@ h6 {
 /**
 * Desktop Navigation
 */
+
 .navigation {
 
 }
@@ -352,8 +353,39 @@ h6 {
   letter-spacing: 3px;
   color: #FFA66C;
 }
+.navbar-text-3 {
+  font-size: 33px;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-style: oblique;
+  letter-spacing: 3px;
+  transition: 500ms;
+      font-family: "Raleway", sans-serif;
+}
+.navbar-text-3::after{
+  content: "Lookbook";
+}
+.navbar-text-3:hover:after {
+  content: "Season One";
+  font-size: 33px;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-style: oblique;
+  letter-spacing: 3px;
+  color: #FFA66C;
+}
 @media only screen and (max-width: 768px) {
   .navbar-text {
+    font-size: 23px;
+    letter-spacing: 2px;
+  }
+  .navbar-text-3 {
     font-size: 23px;
     letter-spacing: 2px;
   }
@@ -363,6 +395,10 @@ h6 {
     max-width: auto;
   }
   .navbar-text:hover:after {
+      font-size: 23px;
+        letter-spacing: 2px;
+  }
+  .navbar-text-3:hover:after {
       font-size: 23px;
         letter-spacing: 2px;
   }

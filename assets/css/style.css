@@ -293,6 +293,9 @@ h6 {
     visibility: hidden;
     margin-bottom: -320px;
   }
+  .navigation {
+    visibility: hidden;
+}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navigation2 {

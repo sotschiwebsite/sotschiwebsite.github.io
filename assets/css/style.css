@@ -32,6 +32,26 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+.titlelookbook {
+  margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: serif;
+}
+.titlelookbook h89 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 400;
+
+}
+@media only screen and (max-width: 768px) {
+  .titlelookbook h89 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+
+  }
+}
 
 /*--------------------------------------------------------------
 # Back to top button

@@ -288,7 +288,7 @@
   </div>
 
 </div>
-<center><a href="merchandise.html"><button>Coming Soon!</button></a></center>
+<center><a href="merchandise.html"><button id="demo">Coming Soon!</button></a></center>
       </div>
     </section><!-- End Facts Section -->
 
@@ -480,13 +480,12 @@
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days + " Days " + hours + " Hours "
-    + minutes + "m " + seconds + "s ";
+    document.getElementById("demo").innerHTML = days + " Days " + hours + " Hours ";
 
     // If the count down is over, write some text
     if (distance < 0) {
       clearInterval(x);
-      document.getElementById("demo").innerHTML = "EXPIRED";
+      document.getElementById("demo").innerHTML = "OUT NOW";
     }
   }, 1000);
           </script>
@@ -575,7 +574,7 @@
       <p>Official Website of the North Italian Artist and Producer</p>
       <div class="social-links">
         <a target="_blank" href="https://instagram.com/sotschiofficial" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a target="_blank" href="https://twitter.com/sotschumusic" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a target="_blank" href="https://twitter.com/sotschimusic" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a target="_blank" href="https://facebook.com/sotschiofficial" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a target="_blank" href="https://open.spotify.com/artist/0h0BXUlfvCGC6yVw3HVk7S?si=sS8-Q8c3Q3yVYNru6ho8hA" class="spotify"><i class="bx bxl-spotify"></i></a>
         <a target="_blank" href="https://deezer.page.link/37qmHAhHBHwevhpK6" class="deezer"><i class="bx bxl-deezer"></i></a>

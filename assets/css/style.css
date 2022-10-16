@@ -522,6 +522,41 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.countdown {
+text-align: center;
+font-size: 60px;
+margin-top: 0px;
+text-transform: uppercase;
+font-family: arial;
+color: white;
+margin-top: 130px;
+font-weight: 700;
+font-style: oblique;
+margin-bottom: -250px;
+font-size: 40px;
+}
+.countdowntitle {
+  text-align: center;
+  background-color: white;
+  color: #000;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: -130px;
+  margin-top: 130px;
+  font-weight: 700;
+  width: 50%;
+  left: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media only screen and (max-width: 768px) {
+  .countdown {
+    font-size: 30px;
+  }
+  .countdowntitle {
+    width: 90%;
+  }
+}
 .ablack a{
   color: darkgreen;
 }

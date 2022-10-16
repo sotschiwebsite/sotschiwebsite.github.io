@@ -534,6 +534,10 @@ font-weight: 700;
 font-style: oblique;
 margin-bottom: -250px;
 font-size: 40px;
+width: 50%;
+left: 50%;
+margin-right: auto;
+margin-left: auto;
 }
 .countdowntitle {
   text-align: center;
@@ -551,7 +555,8 @@ font-size: 40px;
 }
 @media only screen and (max-width: 768px) {
   .countdown {
-    font-size: 30px;
+    font-size: 28px;
+    width: 90%;
   }
   .countdowntitle {
     width: 90%;

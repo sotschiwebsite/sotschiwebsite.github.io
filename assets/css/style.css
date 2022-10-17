@@ -1194,6 +1194,81 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+#class404{
+  width: 100%;
+  height: 100vh;
+  background: url("https://i.postimg.cc/1tjCg1bT/Whats-App-Image-2022-07-04-at-12-43-12-PM-min.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+  @media only screen and (max-width: 767px) {
+    #class404{
+      background-attachment: local;
+    }
+  }
+
+#class404:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#class404 button{
+  font-size: 18px;
+  padding: 10px 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 40px;
+  border: 0px;
+  border-radius: 6px;
+  background-color: #FC5E14;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-weight: 600;
+  transition: 800ms;
+}
+#class404 button:hover {
+  transform: scale(1.05);
+  background-color: #953508;
+}
+#class404 h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: white;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+#class404 p {
+  color: white;
+  margin: 15px 0 0 0;
+  width: 510px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  pointer-events: none;
+}
+@media only screen and (max-width: 768px) {
+  #class404 h1 {
+    font-size: 54px;
+  }
+  #class404 p {
+    width: 410px;
+    font-size: 16px;
+  }
+  #class404 button{
+    font-size: 18px;
+    padding: 14px 35px;
+  }
+}
+
 .newsletterformp p{
   color: #fff;
   font-size: 20px;

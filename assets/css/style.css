@@ -522,6 +522,87 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.presskitsection {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url("https://i.postimg.cc/HW6cLcbB/julian-geiser-19-von-21.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+@media only screen and (max-width: 1023px)
+{
+  .presskitsection {
+    background-attachment: local;
+  }
+}
+.presskittext {
+  width: 2000px;
+  height: 1150px;
+  min-height: 10em;
+display: table-cell;
+vertical-align: middle;
+}
+.presskitsection h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: arial;
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-style: oblique;
+  margin-top: -10px;
+}
+.presskitsection h3{
+  text-transform: uppercase;
+  text-align: right;
+  font-family: quantumregular;
+  font-size: 43px;
+  letter-spacing: -2px;
+}
+.presskitsection p {
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 460px;
+  text-transform: uppercase;
+
+}
+.presskitsection button{
+  font-size: 18px;
+  padding: 10px 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 40px;
+  border: 0px;
+  border-radius: 6px;
+  background-color: #FC5E14;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 40px;
+  transition: 800ms;
+}
+.presskitsection button:hover{
+  transform: scale(1.05);
+  background-color: #CE4708;
+}
+@media only screen and (max-width: 768px)
+{
+  .presskitsection h2{
+    font-size: 50px;
+  }
+  .presskitsection p{
+  font-size: 12px;
+    width: 370px;
+  }
+  .presskitsection button{
+    font-size: 15px;
+      padding: 15px 35px;
+        margin-top: 30px;
+  }
+}
 .countdown {
 text-align: center;
 font-size: 60px;

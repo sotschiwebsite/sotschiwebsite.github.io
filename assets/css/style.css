@@ -553,12 +553,16 @@ vertical-align: middle;
   font-style: oblique;
   margin-top: -10px;
 }
-.presskitsection h3{
+.sotschilogopresskit{
   text-transform: uppercase;
   text-align: right;
   font-family: quantumregular;
   font-size: 43px;
   letter-spacing: -2px;
+  transition: 600ms;
+}
+.presskitsection a:hover{
+  color: #FC5E14;
 }
 .presskitsection p {
   font-size: 15px;

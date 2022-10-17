@@ -522,7 +522,15 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.presskitsection {
+/* .presskitsection {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url("https://i.postimg.cc/HW6cLcbB/julian-geiser-19-von-21.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+} */
+.presskitsection{
   width: 100%;
   height: 100vh;
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url("https://i.postimg.cc/HW6cLcbB/julian-geiser-19-von-21.jpg") center center no-repeat;
@@ -530,6 +538,12 @@ h6 {
   background-attachment: fixed;
   position: relative;
 }
+  @media only screen and (max-width: 767px) {
+    .presskitsection{
+      background-attachment: local;
+    }
+  }
+
 @media only screen and (max-width: 1023px)
 {
   .presskitsection {
@@ -538,7 +552,7 @@ h6 {
 }
 .presskittext {
   width: 2000px;
-  height: 1150px;
+  height: 78vh;
   min-height: 10em;
 display: table-cell;
 vertical-align: middle;
@@ -551,7 +565,8 @@ vertical-align: middle;
   font-weight: 700;
   letter-spacing: -1px;
   font-style: oblique;
-  margin-top: -10px;
+  margin: 0;
+  color: white;
 }
 .sotschilogopresskit{
   text-transform: uppercase;
@@ -573,24 +588,21 @@ vertical-align: middle;
   text-transform: uppercase;
 
 }
-.presskitsection button{
-  font-size: 18px;
-  padding: 10px 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px 40px;
-  border: 0px;
-  border-radius: 6px;
+.presskitsection button {
   background-color: #FC5E14;
-  color: white;
+  font-size: 18px;
+  margin-top: 20px;
   text-transform: uppercase;
-  margin-top: 40px;
-  transition: 800ms;
+  font-weight: 600;
+  color: #fff;
+  padding: 15px 45px;
+  border-radius: 8px;
+  border: 0px;
+    transition: 800ms;
 }
-.presskitsection button:hover{
+.presskitsection button:hover {
   transform: scale(1.05);
-  background-color: #CE4708;
+  background-color: #953508;
 }
 @media only screen and (max-width: 768px)
 {
@@ -1257,11 +1269,11 @@ section {
 }
 @media only screen and (max-width: 768px) {
   #class404 h1 {
-    font-size: 54px;
+    font-size: 50px;
   }
   #class404 p {
-    width: 410px;
-    font-size: 16px;
+    width: 360px;
+    font-size: 14px;
   }
   #class404 button{
     font-size: 18px;

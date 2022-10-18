@@ -1093,11 +1093,10 @@ section {
   margin-top: 30px;
   margin-bottom: 30px;
   height: auto;
-  transition: 500ms;
-  pointer-events: none;
+  transition: 800ms;
 }
 .facts2 img:hover {
-  filter: grayscale(1);
+  transform: scale(1.1);
 }
 .facts2 span {
   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #000000 10px, #000000 20px);

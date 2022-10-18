@@ -88,6 +88,54 @@
       font-weight: normal;
       font-style: normal;
     }
+    .wrapper {
+  padding: 32px;
+}
+
+.cookie-container {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background: #121212;
+  color: #fff;
+  padding: 0 32px;
+  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.29);
+
+  transition: 400ms;
+}
+
+.cookie-container.active {
+  bottom: 0;
+}
+
+.cookie-container a {
+  color: #FC5E14;
+}
+.cookie-container p {
+  margin: 24px 0;
+  line-height: 2;
+}
+.cookie-btn {
+  background: #FC5E14;
+  border: 0;
+  color: #fff;
+  padding: 12px 48px;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 800ms;
+}
+.cookie-btn:hover {
+  background: #953508;
+  transform: scale(0.99);
+}
+@media only screen and (max-width: 768px) {
+  .cookie-container p {
+    font-size: 16px;
+  }
+}
   </style>
   <div class="section-title" data-aos="fade-down">
     <h3>Merchandise</h3>
@@ -162,15 +210,14 @@
   </section>
   </header>
 </section>
-<div class="container">
+<!-- <div class="container">
   <p class="countdowntitle" data-aos="fade-down">Season One Drop in: </p>
 <p class="countdown" data-aos="fade-down" id="demo"></p>
-</div>
+</div> -->
   <section class="shopsection" data-aos="fade-up">
     <div class="container">
-      <!-- <a href="#!/~/"><h1>All Products</h1></a> -->
+      <a href="#!/~/"><h1>All Products</h1></a>
     </div>
-
     <div class="container">
     <div id="my-store-79589777"></div>
     <div>
@@ -194,7 +241,17 @@
     <div class="copyright">
      Sotschi 2022 &copy; All Rights Reserved.
     </div>
-  </footer><!-- End Footer -->
+  </footer>
+  <div class="cookie-container">
+    <p>
+      We use cookies to make sure you get the best experience on our website! To get more information please read our
+      <a href="#">privacy policy</a> and <a href="cookies.html">cookie policy</a>.
+    </p>
+
+    <button class="cookie-btn">
+      Okay
+    </button>
+  </div><!-- End Footer -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -209,6 +266,23 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+
+
+const cookieContainer = document.querySelector(".cookie-container");
+const cookieButton = document.querySelector(".cookie-btn");
+
+cookieButton.addEventListener("click", () => {
+  cookieContainer.classList.remove("active");
+  localStorage.setItem("cookieBannerDisplayed", "true");
+});
+
+setTimeout(() => {
+  if (!localStorage.getItem("cookieBannerDisplayed")) {
+    cookieContainer.classList.add("active");
+  }
+}, 2000);
+  </script>
   <script>
   // Set the date we're counting down to
   var countDownDate = new Date("Oct 18, 2022 12:00:00").getTime();

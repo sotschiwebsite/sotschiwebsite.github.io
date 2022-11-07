@@ -2450,7 +2450,7 @@ opacity: 0;
 }
 @media only screen and (max-width: 768px) {
   .musiccatalog img {
-      width: 180px;
+      width: 320px;
   }
 }
 .musiccatalogsection {
@@ -2463,5 +2463,7 @@ opacity: 0;
 @media only screen and (max-width: 768px) {
   .musiccatalogsection {
       background-attachment: local;
+      background-repeat: repeat-y;
+      background-size: auto;
   }
 }

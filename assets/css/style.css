@@ -573,6 +573,11 @@ h6 {
   background-attachment: fixed;
   position: relative;
 }
+@media only screen and (max-width: 768px) {
+  .music-details-youtube-section {
+    background-attachment: local;
+  }
+}
 .music-details-youtube-section-iframe{
   width: 700px;
   height: 400px;
@@ -964,7 +969,7 @@ section {
 }
 @media only screen and (max-width: 768px) {
   .imgstreaming img{
-    min-width: 300px;
+    min-width: 270px;
     margin: 10px;
   }
 }

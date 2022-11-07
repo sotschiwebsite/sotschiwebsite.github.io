@@ -2451,6 +2451,7 @@ opacity: 0;
 @media only screen and (max-width: 768px) {
   .musiccatalog img {
       width: 320px;
+      margin-bottom: 25px;
   }
 }
 .musiccatalogsection {

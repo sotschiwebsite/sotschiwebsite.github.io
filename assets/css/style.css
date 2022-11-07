@@ -349,6 +349,18 @@ h6 {
   margin-top: 15px;
   margin-bottom: 5px;
 }
+.navbar-text-music-catalog {
+  font-size: 33px;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-style: oblique;
+  letter-spacing: 3px;
+  transition: 500ms;
+      font-family: "Raleway", sans-serif;
+}
 .navbar-text {
   font-size: 33px;
   line-height: 35px;
@@ -405,6 +417,10 @@ h6 {
 }
 @media only screen and (max-width: 768px) {
   .navbar-text {
+    font-size: 23px;
+    letter-spacing: 2px;
+  }
+  .navbar-text-music-catalog {
     font-size: 23px;
     letter-spacing: 2px;
   }
@@ -530,6 +546,62 @@ h6 {
   background-attachment: fixed;
   position: relative;
 } */
+.imgmusicdetails img{
+  margin-top: 60px;
+  max-width: 500px;
+  margin-bottom: 60px;
+}
+.imgarticles img{
+  max-width: 300px;
+  margin: 20px 20px;
+  transition: 800ms;
+}
+.imgarticles img:hover{
+  transform: scale(1.05);
+}
+.musicdetailsection {
+  width: 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url("https://i.postimg.cc/9MwwjRsY/guilty-blur.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.music-details-youtube-section {
+  width: 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url("https://i.postimg.cc/9MwwjRsY/guilty-blur.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.music-details-youtube-section-iframe{
+  width: 700px;
+  height: 400px;
+  transition: 800ms;
+}
+.music-details-youtube-section-iframe:hover{
+  transform: scale(1.04);
+}
+@media only screen and (max-width: 768px) {
+  .imgmusicdetails img{
+    max-width: 300px;
+  }
+  .musicdetailsection {
+    background-attachment: local;
+  }
+  .music-details-youtube-section-iframe{
+    width: 350px;
+    height: 200px;
+  }
+  .imgarticles img{
+    max-width: 210px;
+  }
+}
+@media only screen and (max-width: 528px) {
+  .imgarticles img {
+    max-width: 170px;
+    margin: 5px 5px;
+  }
+}
 .presskitsection{
   width: 100%;
   height: 100vh;
@@ -884,6 +956,25 @@ section {
   padding: 30px 0;
   overflow: hidden;
 }
+.imgstreaming img{
+  width: 160px;
+  margin: 3px 1px;
+  transition: 800ms;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .imgstreaming img{
+    min-width: 300px;
+    margin: 10px;
+  }
+}
+.imgstreaming img:hover{
+  transform: scale(1.05);
+  filter: brightness(1.2);
+}
+.imgstreaming {
+  margin-top: 50px;
+}
 .sectionmusic {
   padding: 60px 0;
   margin-top: 100px;
@@ -944,6 +1035,59 @@ section {
   position: relative;
   color: #fff;
 }
+.section-title-music-details {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title-music-details h3 {
+  font-size: 52px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  position: relative;
+  color: #fff;
+}
+.section-title-music-details h5 {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+.section-title-music-details h2 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  position: relative;
+  color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+.section-title-music-details h4 {
+  text-align: left;
+  font-size: 20px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.section-title-music-details p {
+  text-align: left;
+  font-size: 15px;
+  margin-top: 25px;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width: 768px) {
+  .section-title-music-details h3 {
+    font-size: 42px;
+  }
+  .section-title-music-details h2 {
+    margin-top: -10px;
+  }
+}
 .section-title-2 h30 {
   font-size: 72px;
   font-weight: bold;
@@ -977,10 +1121,94 @@ section {
   text-align: center;
   margin-bottom: 50px;
 }
+.section-title-3 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title-3 p{
+  margin-bottom: 30px;
+}
+.section-title-3 h2{
+  margin-top: 35px;
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+.section-title-3 h2{
+  font-size: 30px;
+}
+}
+.section-title-3 h3 {
+  font-size: 52px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  position: relative;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .section-title-3 h3 {
+    font-size: 42px;
+  }
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #fff;
+}
+.section-title-2 h30 {
+  font-size: 72px;
+  font-weight: bold;
+  color: #fff;
+}
 
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #fff;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #FC5E14;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title p {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.music-detail-section {
+  padding: 60px 0;
+  margin-top: 100px;
+  overflow: hidden;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.5) ), url('https://i.postimg.cc/qvVty4sz/music.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
 .about{
   margin-top: 100px;
 }
@@ -2187,4 +2415,48 @@ opacity: 0;
 
 #footer .credits {
   font-size: 13px;
+}
+}
+.musiccatalog img {
+  width: 400px;
+  margin: 10px 8px;
+  transition: 800ms;
+}
+.musiccatalog img:hover {
+  transform: scale(1.02);
+  filter: brightness(1.2);
+}
+.musiccatalog {
+}
+@media only screen and (max-width: 1399px) {
+  .musiccatalog img {
+      width: 300px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .musiccatalog img {
+      width: 280px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .musiccatalog img {
+      width: 200px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .musiccatalog img {
+      width: 180px;
+  }
+}
+.musiccatalogsection {
+  width: 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url("https://i.postimg.cc/Dwd9B9PR/grunge-wall-texture.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+@media only screen and (max-width: 768px) {
+  .musiccatalogsection {
+      background-attachment: local;
+  }
 }

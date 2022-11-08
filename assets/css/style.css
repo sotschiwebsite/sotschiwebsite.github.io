@@ -1774,10 +1774,11 @@ transition: 500ms;
   border-color: transparent;
   border-radius: 5px;
   background-color: #FC5E14;
-  transition: all 0.5s ease 0s;
+  transition: 500ms;
 }
 .portfolio button:hover {
   background-color: #953508;
+  transform: scale(1.08);
 }
 
 .portfolio #portfolio-flters {

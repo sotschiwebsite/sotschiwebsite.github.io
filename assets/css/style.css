@@ -566,18 +566,6 @@ h6 {
   background-attachment: fixed;
   position: relative;
 }
-.music-details-youtube-section {
-  width: 100%;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url("https://i.postimg.cc/9MwwjRsY/guilty-blur.jpg") center center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-}
-@media only screen and (max-width: 768px) {
-  .music-details-youtube-section {
-    background-attachment: local;
-  }
-}
 .music-details-youtube-section-iframe{
   width: 700px;
   height: 400px;

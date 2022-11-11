@@ -2167,17 +2167,6 @@ transition: 500ms;
 # Contact
 --------------------------------------------------------------*/
 /* CSS */
-.g-recaptcha{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-#g-recaptcha-response {
-display: block !important;
-position: absolute;
-margin: -50px 0 0 0 !important;
-z-index: -999999;
-opacity: 0;
-}
 .contact {
   margin-top: 100px;
   margin-bottom: 100px;

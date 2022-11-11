@@ -512,13 +512,11 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-              <div class="g-recaptcha" data-sitekey="6Lf79WgiAAAAAFZqQWen-X3Jsyo4S9QFk4n_VE34"></div>
               <div class="my-3">
               <div> <p class="contactmessage" id="my-form-status"></p></div>
               </div>
               <!-- replace with your recaptcha SITE key not secret key -->
-              <div class="text-center"><button id="submit" type="submit">Send Message</button></div>
-
+              <div class="text-center"><button  type="submit" class="g-recaptcha"  id="submit" data-sitekey="6Lf79WgiAAAAAFZqQWen-X3Jsyo4S9QFk4n_VE34" data-callback='onSubmit' data-action='submit'>Send Message</button>
             </form>
 
           </div>
@@ -638,6 +636,11 @@ window.onload = function() {
 }
 </script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+  function onSubmit(token) {
+    document.getElementById("demo-form").submit();
+  }
+</script>
 
 </body>
 

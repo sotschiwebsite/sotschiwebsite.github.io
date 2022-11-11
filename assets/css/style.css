@@ -2208,7 +2208,7 @@ opacity: 0;
   transition: all 0.3s ease-in-out;
 }
 
-.contact .info h4 {
+.contact .info h1 {
   padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
@@ -2219,7 +2219,7 @@ opacity: 0;
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
 }
 

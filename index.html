@@ -516,7 +516,8 @@
               <div> <p class="contactmessage" id="my-form-status"></p></div>
               </div>
               <!-- replace with your recaptcha SITE key not secret key -->
-              <div class="text-center"><button  type="submit" class="g-recaptcha"  id="submit" data-sitekey="6Lf79WgiAAAAAFZqQWen-X3Jsyo4S9QFk4n_VE34" data-callback='onSubmit' data-action='submit'>Send Message</button>
+              <div class="text-center"><button id="submit" type="submit">Send Message</button></div>
+
             </form>
 
           </div>
@@ -626,16 +627,6 @@
     }
     form.addEventListener("submit", handleSubmit)
 </script>
-<script>
-// javascript
-window.onload = function() {
-  var el = document.getElementById('g-recaptcha-response');
-  if (el) {
-    el.setAttribute('required', 'required');
-  }
-}
-</script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
   function onSubmit(token) {
     document.getElementById("demo-form").submit();

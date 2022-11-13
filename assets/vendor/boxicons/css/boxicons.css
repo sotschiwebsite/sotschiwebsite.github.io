@@ -3,6 +3,7 @@
     font-family: 'boxicons';
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
     src: url('../fonts/boxicons.eot');
     src: url('../fonts/boxicons.eot') format('embedded-opentype'),
@@ -5422,4 +5423,3 @@
   .bxs-zoom-out:before {
     content: "\ef0b";
   }
-  

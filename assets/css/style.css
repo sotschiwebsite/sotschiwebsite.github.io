@@ -1564,8 +1564,9 @@ section {
    pointer-events: none;
 }
 .newslettersection img {
-  min-width: 363px;
+  max-height: 60px;
   margin-bottom: -20px;
+  margin-left: -9px;
 }
 @media (max-width: 768px) {
   .newsletterform button{

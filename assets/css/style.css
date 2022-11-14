@@ -1216,7 +1216,31 @@ section {
   font-size: 26px;
   color: #fff;
 }
-
+.about h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 40px;
+  cursor: default;
+  letter-spacing: 1px;
+}
+.about p {
+  text-align: justify;
+    cursor: default;
+}
+.about img {
+  min-width: 320px;
+  height: auto;
+  margin-right: 50px;
+  float: left;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .about img {
+    float: none;
+    margin-bottom: 20px;
+  }
+  }
+}
 .about .content ul {
   list-style: none;
   padding: 0;

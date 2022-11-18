@@ -1203,6 +1203,7 @@ section {
   margin-top: 100px;
   overflow: hidden;
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.5) ), url('https://i.postimg.cc/qvVty4sz/music.jpg') no-repeat center center;
+  background-image: -webkit-image-set(linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.5) ), url('https://i.postimg.cc/rwW9ctvq/music.webp') 1x);
   background-size: cover;
   background-attachment: fixed;
   position: relative;

@@ -779,7 +779,6 @@ margin-left: auto;
   width: 100%;
   height: 100vh;
   background: url("https://i.postimg.cc/y6yQWWsf/Index-Wallpaper.jpg") no-repeat center center;
-  background-image: -webkit-image-set(url("https://i.postimg.cc/pT895DJd/Index-Wallpaper.webp") 1x);
   background-size: cover;
   position: relative;
   background-attachment: fixed;
@@ -984,7 +983,6 @@ section {
       padding: 60px 0;
       overflow: hidden;
       background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.5) ), url('https://i.postimg.cc/WbzZj7R4/julian-geiser-16-von-49-min-min.jpg') no-repeat center center;
-      background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.5) ), -webkit-image-set(url("https://i.postimg.cc/VNJmdmWs/julian-geiser-16-von-49-min-min.webp") 1x ) no-repeat center center ;
       background-size: cover;
       background-attachment: local;
     }
@@ -994,7 +992,6 @@ section {
     margin-top: 100px;
     overflow: hidden;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8) ), url("https://i.postimg.cc/sDvf2J6p/background-merch-min-1.jpg") center center;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8) ), -webkit-image-set(url("https://i.postimg.cc/d3KHPj0P/background-merch-min-1.webp") 1x) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: repeat;
@@ -1203,7 +1200,6 @@ section {
   margin-top: 100px;
   overflow: hidden;
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.5) ), url('https://i.postimg.cc/qvVty4sz/music.jpg') no-repeat center center;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.5) ), -webkit-image-set(url('https://i.postimg.cc/rwW9ctvq/music.webp') 1x) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -1537,7 +1533,6 @@ section {
 }
 .newslettersection {
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.5) ), url('https://i.postimg.cc/jS9QBFLK/ASP-101-min.jpg') no-repeat center center;
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.5) ), -webkit-image-set(url("https://i.postimg.cc/9FwMNP7F/ASP-101-min.webp") 1x) no-repeat center center;
   background-size: cover;
   position: relative;
   padding-bottom: 100px;

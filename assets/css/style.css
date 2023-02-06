@@ -255,9 +255,6 @@ h6 {
 * Desktop Navigation
 */
 
-.navigation {
-
-}
 .navigation2 {
   margin-top: -70px;
   border-bottom: 2px solid #fff;
@@ -441,8 +438,6 @@ h6 {
       font-size: 23px;
         letter-spacing: 2px;
   }
-}
-.infinitetext2 {
 }
 .infinitetext2 span {
   font-size: 30px;
@@ -973,7 +968,7 @@ section {
   padding: 60px 0;
   margin-top: 100px;
   overflow: hidden;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.5) ), url('https://i.postimg.cc/qvVty4sz/music.jpg') no-repeat center center;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.5) ), url('https://i.postimg.cc/wv4bYy2n/DSC07412-min.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -982,7 +977,7 @@ section {
     .sectionmusic {
       padding: 60px 0;
       overflow: hidden;
-      background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.5) ), url('https://i.postimg.cc/WbzZj7R4/julian-geiser-16-von-49-min-min.jpg') no-repeat center center;
+      background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.5) ), url('https://i.postimg.cc/4yLK5ZJ6/ASP-71-min.jpg') no-repeat left center;
       background-size: cover;
       background-attachment: local;
     }
@@ -1247,7 +1242,6 @@ section {
     margin-bottom: 20px;
   }
   }
-}
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -1277,9 +1271,6 @@ section {
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
-.imghigh img{
-
-}
 @media only screen and (max-width: 767px) {
   .imghigh img{
     display: none;
@@ -1294,9 +1285,6 @@ section {
     .imghigh img{
       display: block;
     }
-  }
-  .lastpic img {
-
   }
   @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .lastpic img{
@@ -1363,8 +1351,6 @@ section {
   transform: rotate(-10deg);
   left: 0;
   right: 0;
-}
-.facts2 img:hover{
 }
 .tba p {
   margin-top: 30px;
@@ -2321,6 +2307,7 @@ transition: 500ms;
   color: grey;
     font-size: 14px;
     -webkit-appearance: menulist;
+    appearance: menulist;
 }
 
 .contact .php-email-form textarea {
@@ -2441,8 +2428,6 @@ transition: 500ms;
 .musiccatalog img:hover {
   transform: scale(1.02);
   filter: brightness(1.2);
-}
-.musiccatalog {
 }
 @media only screen and (max-width: 1399px) {
   .musiccatalog img {

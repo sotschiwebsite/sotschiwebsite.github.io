@@ -2464,3 +2464,36 @@ transition: 500ms;
       background-size: auto;
   }
 }
+.containersprache {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.containersprache h545{
+  font-size: 20px;
+  padding-right: 5px;
+  font-weight: 500;
+}
+.containersprache h545:hover{
+  text-decoration:underline ;
+  text-underline-offset: 8px;
+  font-weight: 100;
+  color: #8e8e8e;
+  transition: 400ms;
+}
+.containersprache h546{
+  font-size: 25px;
+}
+.containersprache h547{
+  font-size: 20px;
+  padding-left: 5px;
+  color: #8e8e8e;
+  font-weight: 100;
+}
+.containersprache h547:hover {
+  text-decoration:underline ;
+  text-underline-offset: 8px;
+  color: #fff;
+  font-weight: 500;
+  transition: 400ms;
+}

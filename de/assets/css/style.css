@@ -2497,3 +2497,34 @@ transition: 500ms;
   font-weight: 500;
   transition: 400ms;
 }
+@media only screen and (max-width: 768px) {
+  .containersprache {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .containersprache h545{
+    font-size: 14px;
+    padding-right: 5px;
+  }
+  .containersprache h545:hover{
+    text-decoration:underline ;
+    text-underline-offset: 8px;
+    color: #8e8e8e;
+    transition: 400ms;
+  }
+  .containersprache h546{
+    font-size: 20px;
+  }
+  .containersprache h547{
+    font-size: 14px;
+    padding-left: 5px;
+    color: #8e8e8e;
+  }
+  .containersprache h547:hover {
+    text-decoration:underline ;
+    text-underline-offset: 8px;
+    color: #fff;
+    transition: 400ms;
+  }
+}

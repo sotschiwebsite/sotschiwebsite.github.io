@@ -1571,12 +1571,12 @@ section {
   color: #fff;
 }
 .newsletterform button:after{
-  content: 'Subscribe!';
+  content: 'Abonnieren!';
      display: block;
    }
 .newsletterform button:focus:after,
 .newsletterform button:active:after{
-   content: 'Subscribed!';
+   content: 'Abonniert!';
    display: block;
    pointer-events: none;
 }

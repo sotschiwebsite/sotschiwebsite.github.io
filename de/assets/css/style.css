@@ -2528,3 +2528,61 @@ transition: 500ms;
     transition: 400ms;
   }
 }
+.faq {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1) ), url("https://i.postimg.cc/wjCjFZYY/photo-1596865249308-2472dc5807d7-ixlib-rb-4-0.jpg") center center no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  background-repeat: repeat;
+}
+@media only screen and (max-width: 768px) {
+  .faq {
+    background-attachment: local;
+  }
+}
+.faq .accordion-body{
+  background-color: rgba(46, 46, 46, 0.5);
+}
+.faq .accordion-item{
+  background-color: rgba(0, 0, 0, 0.0);
+  padding-top: 2px;
+}
+.faq h444{
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.faq h445{
+  color: white;
+  font-size: 16px;
+}
+.faq h446{
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px;
+  text-transform: uppercase;
+}
+.faq button{
+  background-color: rgba(46, 46, 46, 0.5);
+  color: white;
+}
+.faq button:focus::after{
+  color: white;
+}
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: rgba(46, 46, 46, 0.8);
+}
+.accordion-button:focus {
+  z-index: 3;
+  border-color: orange;
+  outline: 0;
+  box-shadow: 0 0 0 0.05rem rgb(252, 94, 20);
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+  transform: rotate(-180deg);
+}

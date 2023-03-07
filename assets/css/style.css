@@ -2537,6 +2537,11 @@ transition: 500ms;
   position: relative;
   background-repeat: repeat;
 }
+@media only screen and (max-width: 768px) {
+  .faq {
+    background-attachment: local;
+  }
+}
 .faq .accordion-body{
   background-color: rgba(46, 46, 46, 0.5);
 }

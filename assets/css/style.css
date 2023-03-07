@@ -2671,3 +2671,11 @@ transition: 500ms;
     margin: 0;
   }
 }
+@media only screen and (max-width: 504px) {
+  .instafeedtop button{
+    font-size: 14px;
+  }
+  .instafeedtop h33{
+    font-size: 31px;
+  }
+}

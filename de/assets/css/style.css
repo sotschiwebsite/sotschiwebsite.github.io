@@ -2586,3 +2586,134 @@ transition: 500ms;
   background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
   transform: rotate(-180deg);
 }
+.instafeedtop {
+  background-color: #000;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.instafeedtop img {
+  max-width: 150px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px){
+  .instafeedtop img {
+    max-width: 110px;
+  }
+}
+.buttoncontainer {
+  padding-top: 20px;
+}
+.buttoncontainer .col{
+  padding-bottom: 20px;
+}
+.button1{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 195px;
+  padding-right: 195px;
+  border: none;
+  background-color: rgb(0, 149, 246);
+  color: #fff;
+  transition: 500ms;
+}
+.button2{
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 185px;
+  padding-right: 185px;
+  border: none;
+  background-color: rgb(239, 239, 239);
+  color: #000;
+  transition: 500ms;
+}
+.button1:hover{
+  background-color: rgb(24, 119, 242);
+  color: #fff;
+}
+.button2:hover{
+  background-color: rgb(219,219,219);
+  color: #000;
+}
+.username {
+  padding-top: 20px;
+}
+.username button{
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 105px;
+  padding-right: 105px;
+  border: none;
+  margin-top: 20px;
+  background-color: #bdbdbd;
+  color: #fff;
+  transition: 500ms;
+}
+.username h33:hover{
+  color: #c1c1c1;
+}
+.instafeedtop h34{
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.instafeedtop h35{
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.instafeedtop h38{
+  font-size: 15px;
+  color: #8f8f8f;
+  font-weight: 500;
+}
+.username {
+}
+.socialfeed {
+  background-color: #000;
+}
+@media only screen and (min-width: 1200px) {
+  .instafeedtop .col-4{
+    flex: 0 0 auto;
+    width: 17%;
+}
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (min-width: 504px) {
+  .instafeedtop h33{
+    font-size: 31px;
+  }
+}
+@media only screen and (min-width: 516px) {
+  .instafeedtop h33{
+    font-size: 31px;
+  }
+}
+@media only screen and (max-width: 421px) {
+  .instafeedtop h33{
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 422px) {
+  .instafeedtop h33{
+    font-size: 28px;
+  }
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr fr;
+  grid-gap: 0px;
+}

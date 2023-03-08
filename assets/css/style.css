@@ -2626,6 +2626,11 @@ transition: 500ms;
     max-width: 110px;
   }
 }
+@media only screen and (max-width: 425px){
+  .instafeedtop img {
+    max-width: 90px;
+  }
+}
 .buttoncontainer {
   padding-top: 20px;
 }
@@ -2789,8 +2794,18 @@ transition: 500ms;
   }
 }
 @media only screen and (max-width: 421px) {
-  .instafeedtop h33{
-    font-size: 28px;
+  .instafeedtop h38{
+    font-size: 13px;
+  }
+  .instafeedtop h34{
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 600;
+  }
+  .instafeedtop h35{
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 500;
   }
 }
 @media only screen and (min-width: 422px) {

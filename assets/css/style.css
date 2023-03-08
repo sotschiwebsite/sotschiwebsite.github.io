@@ -2611,13 +2611,24 @@ transition: 500ms;
 .instafeedtop button:hover{
   background-color: #0055a4;
 }
-.instafeedtop h33{
-  font-size: 35px;
-  color: #ffffff;
-  font-weight: 700;
+.username {
+  padding-top: 20px;
+}
+.username button{
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 105px;
+  padding-right: 105px;
+  border: none;
+  margin-top: 20px;
+  background-color: #bdbdbd;
+  color: #fff;
   transition: 500ms;
 }
-.instafeedtop h33:hover{
+.username h33:hover{
   color: #c1c1c1;
 }
 .instafeedtop h34{
@@ -2630,52 +2641,63 @@ transition: 500ms;
   color: #ffffff;
   font-weight: 600;
 }
-.instafeed {
-  padding-bottom: 20px;
-  display: block;
-}
-.instafeed img{
-  width: 350px;
-  height: 400px;
-  object-fit: cover;
-  padding-left: 5px;
-  padding-right: 5px;
-  display: block;
-  transition: 500ms;
-}
-.instafeed img:hover{
-  filter: grayscale(100%);
-  opacity: 0.9;
+.instafeedtop h38{
+  font-size: 15px;
+  color: #8f8f8f;
+  font-weight: 500;
 }
 .username {
-  padding-bottom: 30px;
 }
-.social-container {
+.socialfeed {
   background-color: #000;
 }
 @media only screen and (min-width: 1200px) {
-  .instafeed img{
-    width: 450px;
-    height: 500px;
-  }
   .instafeedtop .col-4{
     flex: 0 0 auto;
     width: 17%;
 }
 }
 @media only screen and (max-width: 768px) {
-  .instafeed img{
-    width: 600px;
-    height: 200px;
-    object-fit: cover;
-    margin: 0;
-  }
 }
-@media only screen and (max-width: 504px) {
+@media only screen and (min-width: 504px) {
   .instafeedtop button{
     font-size: 14px;
+    padding-left: 145px;
+    padding-right: 145px;
+    margin-right: 15px;
   }
   .instafeedtop h33{
     font-size: 31px;
+  }
+}
+@media only screen and (min-width: 516px) {
+  .instafeedtop button{
+    font-size: 15px;
+    padding-left: 165px;
+    padding-right: 165px;
+    margin-right: 15px;
+  }
+  .instafeedtop h33{
+    font-size: 31px;
+  }
+}
+@media only screen and (max-width: 421px) {
+  .instafeedtop button{
+    font-size: 14px;
+    padding-left: 133px;
+    padding-right: 133px;
+  }
+  .instafeedtop h33{
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 422px) {
+  .instafeedtop button{
+    font-size: 14px;
+    padding-left: 164px;
+    padding-right: 164px;
+  }
+  .instafeedtop h33{
+    font-size: 28px;
   }
 }

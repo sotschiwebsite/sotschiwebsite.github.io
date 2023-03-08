@@ -1224,22 +1224,50 @@ section {
   font-size: 40px;
   cursor: default;
   letter-spacing: 1px;
+  padding-top: 20px;
+}
+.about h459{
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: rgb(165, 165, 165);
+  margin-bottom: 10px;
 }
 .about p {
   text-align: justify;
     cursor: default;
 }
-.about img {
-  min-width: 320px;
-  height: auto;
-  margin-right: 50px;
-  float: left;
-  margin-bottom: 20px;
+.about .col-4{
+  width: 30%;
 }
+.about .presspic img{
+}
+@media only screen and (max-width: 1199px) {
+  .about .presspic img{
+    border-radius: 100%;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    }
+  .about p {
+    font-size: 16px;
+  }
+  .about .col-4 {
+    flex: 1;
+  }
+  }
 @media only screen and (max-width: 767px) {
-  .about img {
-    float: none;
-    margin-bottom: 20px;
+  .about .presspic img{
+    border-radius: 100%;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    }
+  .about p {
+    font-size: 12px;
+  }
+  .about .col-4 {
+    flex: 1;
   }
   }
 .about .content ul {

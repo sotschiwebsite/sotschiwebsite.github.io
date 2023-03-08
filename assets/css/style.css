@@ -2619,7 +2619,7 @@ transition: 500ms;
   transition: 500ms;
 }
 .button2{
-  font-size: 13px;
+  font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
   border-radius: 5px;
@@ -2686,7 +2686,69 @@ transition: 500ms;
     width: 17%;
 }
 }
+@media only screen and (min-width: 1400px) {
+  .button1{
+    font-size: 15px;
+    padding-left: 213px;
+    padding-right: 213px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .button2{
+      font-size: 15px;
+      padding-left: 210px;
+      padding-right: 210px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+}
+@media only screen and (max-width: 1399px) {
+  .button1{
+    font-size: 13px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .button2{
+      font-size: 13px;
+      padding-left: 150px;
+      padding-right: 150px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+}
+@media only screen and (max-width: 991px) {
+  .button1{
+    font-size: 12px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .button2{
+      font-size: 12px;
+      padding-left: 124px;
+      padding-right: 124px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+}
 @media only screen and (max-width: 768px) {
+  .button1{
+    font-size: 11px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .button2{
+      font-size: 11px;
+      padding-left: 119px;
+      padding-right: 119px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
 }
 @media only screen and (min-width: 504px) {
   .instafeedtop h33{
@@ -2713,3 +2775,51 @@ transition: 500ms;
   grid-template-columns: 2fr fr;
   grid-gap: 0px;
 }
+@media only screen and (max-width: 400px) {
+  .button1{
+    font-size: 11px;
+    padding-left: 148px;
+    padding-right: 148px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .button2{
+      font-size: 11px;
+      padding-left: 147px;
+      padding-right: 147px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+  }
+  @media only screen and (max-width: 377px) {
+    .button1{
+      font-size: 11px;
+      padding-left: 138px;
+      padding-right: 138px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    .button2{
+        font-size: 11px;
+        padding-left: 137px;
+        padding-right: 137px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+    }
+    @media only screen and (max-width: 320px) {
+      .button1{
+        font-size: 10px;
+        padding-left: 118px;
+        padding-right: 118px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+      .button2{
+          font-size: 10px;
+          padding-left: 117px;
+          padding-right: 117px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+        }
+      }

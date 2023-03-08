@@ -2229,6 +2229,21 @@ transition: 500ms;
   font-size: 16px;
   color: #fff;
 }
+@media only screen and (max-width: 425px) {
+  .contact .info h1 {
+    padding: 0 0 0 60px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #fff;
+  }
+}
 
 .contact .info .email,
 .contact .info .phone {
@@ -2564,6 +2579,19 @@ transition: 500ms;
   font-weight: 700;
   padding: 15px;
   text-transform: uppercase;
+}
+@media only screen and (max-width: 425px){
+  .faq h446{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px;
+    text-transform: uppercase;
+  }
+  .faq h445{
+    color: white;
+    font-size: 12px;
+  }
 }
 .faq button{
   background-color: rgba(46, 46, 46, 0.5);

@@ -2688,9 +2688,9 @@ transition: 500ms;
 }
 @media only screen and (max-width: 421px) {
   .instafeedtop button{
-    font-size: 14px;
-    padding-left: 135px;
-    padding-right: 135px;
+    font-size: 12px;
+    padding-left: 137px;
+    padding-right: 137px;
   }
   .instafeedtop h33{
     font-size: 28px;
@@ -2698,7 +2698,7 @@ transition: 500ms;
 }
 @media only screen and (min-width: 422px) {
   .instafeedtop button{
-    font-size: 14px;
+    font-size: 12px;
     padding-left: 164px;
     padding-right: 164px;
   }

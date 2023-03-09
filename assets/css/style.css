@@ -1797,14 +1797,13 @@ section {
       background-size: cover;
       background-attachment: local;
     }
-    .sectionmusic .col-4{
-      padding: 2px;
-    }
   }
+  
   .sectionmusic img{
     filter: brightness(0.7);
-    filter: grayscale(0.4);
+    filter: grayscale(0.6);
     transition: 700ms;
+    width: 600px;
   }
   .sectionmusic img:hover{
     padding: 7px;
@@ -1832,13 +1831,23 @@ section {
     padding-left: 125px;
     padding-right: 125px;
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 767px) {
     .musicbutton a{
       font-size: 9px;
       padding-left: 45px;
       padding-right: 45px;
       padding-top: 10px;
       padding-bottom: 10px;
+    }
+    .sectionmusic img{
+      width: 400px;
+      padding: 20px;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .sectionmusic img{
+      width: 300px;
+      padding: 10px;
     }
   }
 /*--------------------------------------------------------------

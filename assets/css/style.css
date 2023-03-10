@@ -973,17 +973,26 @@ section {
   margin-top: 50px;
 }
   .sectionmerch{
-    padding: 60px 0;
-    margin-top: 100px;
     overflow: hidden;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8) ), url("https://i.postimg.cc/sDvf2J6p/background-merch-min-1.jpg") center center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: repeat;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   @media only screen and (max-width: 1023px) {
     .sectionmerch {
       background-attachment: local;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .sectionmerch {
+      margin-top: 30px;
+      padding-top: 20px;
+      padding-bottom: 40px;
     }
   }
 /*--------------------------------------------------------------
@@ -991,7 +1000,7 @@ section {
 --------------------------------------------------------------*/
 .section-title{
   border-bottom: solid #fff;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   width: 100%;
 }
 .section-title h2{
@@ -1008,6 +1017,9 @@ section {
   margin-bottom: 3px;
 }
 @media only screen and (max-width: 768px) {
+  .section-title {
+    margin-bottom: 0px;
+  }
   .section-title h2{
     font-size: 40px;
     margin-bottom: 10px;
@@ -1029,11 +1041,12 @@ section {
   position: relative;
 }
 .about{
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 @media only screen and (max-width: 767px) {
   .about {
-    margin-top: -90px;
+    margin-top: -110px;
   }
 }
 .about .content h3 {
@@ -1155,7 +1168,15 @@ section {
     }
   }
 .facts{
-  margin-top: 100px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 768px){
+  .facts{
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
 }
 .facts img {
   min-width: 300px;
@@ -1385,6 +1406,8 @@ section {
 @media only screen and (max-width: 768px) {
   .newslettersection {
     background-attachment: local;
+    padding-top: 50px;
+    padding-bottom: 20px;
   }
 }
 .newslettersection h33{
@@ -1456,7 +1479,7 @@ section {
 }
 
 .resume {
-  margin-top: 100px;
+  margin-top: 30px;
   margin-bottom: 100px;
   background-color: #000;
 }
@@ -1612,7 +1635,8 @@ section {
 }
 .sectionmusic {
   padding: 60px 0;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 160px;
   overflow: hidden;
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.5) ), url('https://i.postimg.cc/wv4bYy2n/DSC07412-min.jpg') no-repeat center center;
   background-size: cover;
@@ -1620,12 +1644,15 @@ section {
   position: relative;
 }
   @media only screen and (max-width: 1023px) {
-    .sectionmusic {
-      padding: 60px 0;
-      overflow: hidden;
-      background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 1.5) ), url('https://i.postimg.cc/4yLK5ZJ6/ASP-71-min.jpg') no-repeat left center;
-      background-size: cover;
+    .sectionmusic{
+      background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1.5) ), url('https://i.postimg.cc/4yLK5ZJ6/ASP-71-min.jpg') no-repeat left center;
       background-attachment: local;
+      background-size: cover;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .sectionmusic{
+      margin-top: 30px;
     }
   }
   
@@ -1915,8 +1942,14 @@ section {
 --------------------------------------------------------------*/
 /* CSS */
 .contact {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
+}
+@media only screen (max-width: 1023px){
+  .contact {
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
 }
 .contact .info {
   width: 100%;
@@ -2271,8 +2304,8 @@ section {
   }
 }
 .faq {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 130px;
   width: 100%;
   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1) ), url("https://i.postimg.cc/wjCjFZYY/photo-1596865249308-2472dc5807d7-ixlib-rb-4-0.jpg") center center no-repeat;
   background-attachment: fixed;
@@ -2439,6 +2472,14 @@ section {
 }
 .socialfeed {
   background-color: #000;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 1023px){
+  .socialfeed {
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .instafeedtop .col-4{

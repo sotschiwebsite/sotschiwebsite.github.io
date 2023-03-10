@@ -1002,11 +1002,10 @@ section {
 @media only screen and (max-width: 768px) {
   .section-title h2{
     font-size: 40px;
-    line-height: 0.95em;
+    margin-bottom: 10px;
   }
   .section-title p{
-    margin-top: 10px;
-    font-size: 11.5px;
+    display: none;
   }
 }
 /*--------------------------------------------------------------

@@ -1402,6 +1402,13 @@ section {
   color: grey;
   margin-top: 20px;
 }
+.newslettersection input {
+  background-color: #fff;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+}
 .newslettersection button{
   font-size: 17px;
   font-weight: 600;
@@ -1414,13 +1421,6 @@ section {
   padding-right: 70px;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-.newslettersection input {
-  background-color: #fff;
-  font-size: 16px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  margin-bottom: 15px;
 }
 .newslettersection button:hover{
   background-color: #953508;

@@ -13,6 +13,14 @@ body {
   color: #fff;
   background-color: #000;
 }
+  @font-face {
+    font-family: 'quantumregular';
+    src: url('fonts/quantum-webfont.woff2') format('woff2'),
+         url('fonts/quantum-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
 
 a {
   color: #fff;
@@ -1374,6 +1382,11 @@ section {
   padding-top: 100px;
   background-attachment: fixed;
 }
+@media only screen and (max-width: 768px) {
+  .newslettersection {
+    background-attachment: local;
+  }
+}
 .newslettersection .col-sm-6{
 }
 .newslettersection .col-lg-6{
@@ -1381,7 +1394,7 @@ section {
 .newslettersection h33{
   font-size: 70px;
   text-transform: uppercase;
-  font-family: quantum;
+  font-family: quantumregular;
   letter-spacing: -3px;
 }
 .newslettersection p{

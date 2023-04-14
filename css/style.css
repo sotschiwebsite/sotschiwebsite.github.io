@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'quantumregular';
-  src: url('fonts/quantum-webfont.woff2') format('woff2'),
-       url('fonts/quantum-webfont.woff') format('woff');
+  src: url('../fonts/quantum-webfont.woff2') format('woff2'),
+       url('../fonts/quantum-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -24,17 +24,16 @@ p {
 a {
   color: #fff
 }
+section{
+  overflow: hidden;
+}
 html{
   scroll-behavior: smooth;
-}
-.overflow-hide{
-  overflow-x: hidden;
 }
 .section-title {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
-  overflow-x: hidden;
 }
 .section-title-black {
   margin-top: 50px;
@@ -81,11 +80,10 @@ text-align: center;
 }
 body{
   background: #000;
-  overflow-x: hidden;
 }
 .homesection {
   background: linear-gradient(to right, rgba(9, 32, 63, 0.723), rgba(83, 120, 149, 0.723)),url("https://i.postimg.cc/QttsXfMT/Sotchi-Gassl-2023-22.jpg") center no-repeat;
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   position: relative;
 }
@@ -97,13 +95,11 @@ margin-bottom: 150px;
 @media only screen and (min-height: 1050px){
 .home-release {
   margin-top: 19vh;
-  overflow-x: hidden;
 }
 }
 @media only screen and (max-height: 800px){
 .home-release {
   width: 330px;
-  overflow-x: hidden;
 }
 }
 .home-release img{
@@ -130,7 +126,6 @@ letter-spacing: 3px;
 .biosection{
 padding-top: 20px;
 padding-bottom: 20px;
-overflow-x: hidden;
 }
 .biosection .row{
 --bs-gutter-y: 50px;
@@ -332,7 +327,6 @@ font-size: 10px;
 .tourdates{
   padding-top: 0px;
   padding-bottom: 50px;
-  overflow-x: hidden;
 }
 .tourdates .section-title h1{
   color: #000;
@@ -675,7 +669,6 @@ justify-content: center;
 .merchandise {
   background-color: #e9e9e9;
   padding-bottom: 50px;
-  overflow-x: hidden;
 }
 .merchandise h1{
   color: #000;
@@ -1609,7 +1602,6 @@ background-color: #000;
 .discography{
 background-color: #fff;
 min-height: 200px;
-overflow-x: hidden;
 padding-bottom: 70px;
 }
 .discography h1{
@@ -1769,7 +1761,6 @@ text-decoration: none;
 }
 .profiles {
 background-color: #eeeeee;
-overflow-x: hidden;
 }
 .profiles-inner {
 padding-top: 50px;
@@ -1778,13 +1769,11 @@ padding-bottom: 50px;
 .discography-remixes{
 background-color: #fff;
 min-height: 200px;
-overflow-x: hidden;
 padding-bottom: 70px;
 }
 .playlists {
 background-color: #eeeeee;
 min-height: 200px;
-overflow-x: hidden;
 padding-bottom: 70px;
 }
 .show {
@@ -1932,7 +1921,6 @@ object-fit: cover;
 
 .musicvideo{
 padding-bottom: 60px;
-overflow-x: hidden;
 }
 .musicvideo p{
 color: #000;

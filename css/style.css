@@ -214,11 +214,18 @@ max-width: 300px;
   display: flex;
   justify-content: right;
 }
+.social-media-kit a{
+  text-decoration: none;
+}
 .social-media-kit-home {
 padding-top: 10px;
 display: flex;
 justify-content: center;
 }
+.social-media-kit-home a{
+  color: #000;
+  text-decoration: none;
+  }
 .social-media-kit-home .instagram,
 .social-media-kit-home .facebook,
 .social-media-kit-home .spotify,

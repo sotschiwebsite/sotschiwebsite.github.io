@@ -732,7 +732,6 @@ border-right: solid 3px;
 }
 .gallery {
   padding-bottom: 50px;
-  position: relative;
 }
 .gallery .img-hoch img{
   height: 300px;
@@ -740,7 +739,7 @@ border-right: solid 3px;
   object-fit: cover;
   filter: grayscale(0.5);
   transition: 300ms;
-  object-position: center;
+  object-position: center center;
 }
 .gallery .img-breit {
 }

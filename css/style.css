@@ -245,7 +245,7 @@ justify-content: center;
 .social-media-kit .tiktok {
   width: 30px;
   height: 30px;
-  margin-right: 10px;
+  margin: 5px;
   border-radius: 100%;
   background-color: #fff;
   transition: 200ms;

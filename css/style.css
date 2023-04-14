@@ -577,7 +577,7 @@ margin-right: 10px;
 }
 }
 .logo-footer h1{
-  font-family: "quantum";
+  font-family: 'quantumregular';
   font-size: 50px;
 }
 .button-primary a{
@@ -1314,7 +1314,7 @@ padding-top: 4vh;
 background-color: #000;
 }
 .footer .logo h5{
-font-family: quantum;
+font-family: 'quantumregular';
 text-transform: uppercase;
 letter-spacing: -1px;
 }
@@ -1541,7 +1541,7 @@ pointer-events: none;
 .background-text-3 h1{
 font-size: 440px !important;
 letter-spacing: -34px;
-font-family: "quantum";
+font-family: 'quantumregular';
 color: rgb(255, 255, 255);
 -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
 -webkit-text-stroke-width: 1px;
@@ -1556,7 +1556,7 @@ transform: translate(-5%, -40%);
 .background-text-4 h1{
 font-size: 440px !important;
 letter-spacing: -34px;
-font-family: "quantum";
+font-family: 'quantumregular';
 color: rgb(255, 255, 255);
 -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
 -webkit-text-stroke-width: 1px;
@@ -2231,7 +2231,7 @@ padding-bottom: 20px;
 font-size: 10px;
 }
 .presskit-title h2{
-font-family: "quantum";
+font-family: 'quantumregular';
 font-size: 30px;
 letter-spacing: -2px;
 line-height: 0px;
@@ -2254,7 +2254,7 @@ line-height: 0px;
   font-size: 8px;
 }
 .presskit-title h2{
-  font-family: "quantum";
+  font-family: 'quantumregular';
   font-size: 20px;
   letter-spacing: 0px;
   line-height: 0px;

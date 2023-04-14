@@ -1855,6 +1855,9 @@ margin-bottom: 8px;
 display: flex;
 justify-content: center;
 }
+.streaming a{
+  text-decoration: none;
+  }
 .streaming .instagram,
 .streaming .facebook,
 .streaming .spotify,

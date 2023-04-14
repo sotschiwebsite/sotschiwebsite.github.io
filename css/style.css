@@ -581,6 +581,7 @@ margin-right: 10px;
 }
 .logo-footer h1{
   font-family: 'quantumregular';
+  font-display: optional;
   font-size: 50px;
 }
 .button-primary a{
@@ -1312,6 +1313,7 @@ background-color: #000;
 }
 .footer .logo h5{
 font-family: 'quantumregular';
+font-display: optional;
 text-transform: uppercase;
 letter-spacing: -1px;
 }
@@ -1539,6 +1541,7 @@ pointer-events: none;
 font-size: 440px !important;
 letter-spacing: -34px;
 font-family: 'quantumregular';
+font-display: optional;
 color: rgb(255, 255, 255);
 -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
 -webkit-text-stroke-width: 1px;
@@ -1554,6 +1557,7 @@ transform: translate(-5%, -40%);
 font-size: 440px !important;
 letter-spacing: -34px;
 font-family: 'quantumregular';
+font-display: optional;
 color: rgb(255, 255, 255);
 -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
 -webkit-text-stroke-width: 1px;
@@ -2224,9 +2228,11 @@ font-size: 10px;
 }
 .presskit-title h2{
 font-family: 'quantumregular';
+font-display: optional;
 font-size: 30px;
 letter-spacing: -2px;
 line-height: 0px;
+font-display: optional
 }
 @media only screen and (max-width: 768px) and (max-height: 930px){
 .presskit-title{
@@ -2247,6 +2253,7 @@ line-height: 0px;
 }
 .presskit-title h2{
   font-family: 'quantumregular';
+  font-display: optional;
   font-size: 20px;
   letter-spacing: 0px;
   line-height: 0px;

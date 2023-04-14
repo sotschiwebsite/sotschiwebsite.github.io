@@ -29,11 +29,13 @@ body{
 }
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 .section-title {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
+  overflow-x: hidden;
 }
 .section-title-black {
   margin-top: 50px;
@@ -88,6 +90,7 @@ background: linear-gradient(to right, rgba(9, 32, 63, 0.723), rgba(83, 120, 149,
   object-fit: cover;
   background-size: cover;
   position: relative;
+  overflow: hidden;
   background-attachment: fixed;
 }
 .home-release {
@@ -129,6 +132,7 @@ letter-spacing: 3px;
 .biosection{
 padding-top: 20px;
 padding-bottom: 20px;
+overflow-x: hidden;
 }
 .biosection .row{
 --bs-gutter-y: 50px;
@@ -673,6 +677,7 @@ justify-content: center;
 .merchandise {
   background-color: #e9e9e9;
   padding-bottom: 50px;
+  overflow-x: hidden;
 }
 .merchandise h1{
   color: #000;
@@ -1072,13 +1077,14 @@ CSS
     top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     line-height: 0;
 }
 
 .custom-shape-divider-top-1680460484 svg {
     position: relative;
     display: block;
+    overflow-x: hidden;
     width: 100%;
     height: 50px;
 }
@@ -1091,13 +1097,14 @@ CSS
     top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     line-height: 0;
 }
 
 .custom-shape-divider-top-1680460484-white svg {
     position: relative;
     display: block;
+    overflow-x: hidden;
     width: 100%;
     height: 50px;
 }
@@ -1110,13 +1117,14 @@ CSS
     top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     line-height: 0;
 }
 
 .custom-shape-divider-top-1680460484-w svg {
     position: relative;
     display: block;
+    overflow-x: hidden;
     width: 100%;
     height: 50px;
 }
@@ -1129,13 +1137,14 @@ CSS
     top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     line-height: 0;
 }
 
 .custom-shape-divider-top-1680460484-g svg {
     position: relative;
     display: block;
+    overflow-x: hidden;
     width: 100%;
     height: 50px;
 }
@@ -1194,7 +1203,7 @@ to {
   bottom: 0;
   left: 0;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
   line-height: 0;
   transform: rotate(180deg);
 }
@@ -1202,6 +1211,7 @@ to {
 .custom-shape-divider-bottom-1680710766 svg {
   position: relative;
   display: block;
+  overflow-x: hidden;
   width: calc(100% + 1.3px);
   height: 40px;
 }
@@ -1214,7 +1224,7 @@ position: absolute;
 bottom: 0;
 left: 0;
 width: 100%;
-overflow: hidden;
+overflow-x: hidden;
 line-height: 0;
 transform: rotate(180deg);
 }
@@ -1222,6 +1232,7 @@ transform: rotate(180deg);
 .custom-shape-divider-bottom-1680710766-white svg {
 position: relative;
 display: block;
+overflow-x: hidden;
 width: calc(100% + 1.3px);
 height: 40px;
 }
@@ -1939,6 +1950,7 @@ object-fit: cover;
 
 .musicvideo{
 padding-bottom: 60px;
+overflow-x: hidden;
 }
 .musicvideo p{
 color: #000;

@@ -87,6 +87,18 @@ body{
   background-size: cover;
   position: relative;
 }
+.image-overlay{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 0;
+}
+.image-overlay img{
+  width: 100%;
+  max-width: 1300px;
+  min-width: 600px;
+  filter: drop-shadow(0 0 10px rgba(200, 31, 76, 0.262)) brightness(0.4) hue-rotate(190deg);
+}
 .home-release {
 width: 500px;
 margin-top: 10vh;
@@ -1549,6 +1561,7 @@ color: rgb(255, 255, 255);
 position: absolute;
 opacity: 0.1;
 top: 33%;
+z-index: -1;
 text-align: center;
 pointer-events: none;
 transform: translate(-5%, -40%);
@@ -1565,6 +1578,7 @@ color: rgb(255, 255, 255);
 position: absolute;
 opacity: 0.1;
 top: 55%;
+z-index: -1;
 text-align: center;
 pointer-events: none;
 transform: translate(-5%, -0%);

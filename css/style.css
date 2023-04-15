@@ -1277,7 +1277,8 @@ a.nav-link:hover {
 }
 
 .navbar-toggler img {
-width: 140px;
+width: 100%;
+height: auto;
 padding-top: 10px;
 padding-bottom: 10px;
 transition: width 0.15s ease-in-out;
@@ -1289,16 +1290,18 @@ nav {
   padding: 10px 15px !important;
   background: #d6d6d6;
   filter: drop-shadow(0 0 0.25rem rgb(181, 181, 181));
+  transition: width 0.15s ease-in-out;
 }
 .navbar-toggler img {
-width: 110px;
+width: 100%;
+height: autos;
 padding-top: 10px;
 padding-bottom: 10px;
-transition: width 0.15s ease-in-out;
+transition: 300ms;
 }
 }
 .navbar-toggler.clicked img {
-  width: 75px;
+  width: 100%;
 }
 .vr,hr{
 color: #696969;

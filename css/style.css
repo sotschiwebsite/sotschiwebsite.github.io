@@ -1288,7 +1288,7 @@ nav {
   font-family: 'Poppins', sans-serif;
   border-radius: 50px !important;
   padding: 10px 15px !important;
-  background: #d6d6d6;
+  background: #d6d6d6 !important;
   filter: drop-shadow(0 0 0.25rem rgb(181, 181, 181));
   transition: width 0.15s ease-in-out;
 }

@@ -95,9 +95,9 @@ body{
 }
 .image-overlay img{
   width: 100%;
-  max-width: 1300px;
-  min-width: 600px;
-  filter: drop-shadow(0 0 10px rgba(200, 31, 76, 0.262)) brightness(0.4) hue-rotate(190deg);
+  max-width: 1400px;
+  min-width: 900px;
+  filter: brightness(0.4) hue-rotate(190deg);
 }
 .home-release {
 width: 500px;
@@ -1242,23 +1242,21 @@ fill: #ffffffff;
 nav {
   font-family: 'Poppins', sans-serif;
   border-radius: 50px !important;
-  padding: 10px 40px !important;
-  background: #d6d6d6;
-  filter: drop-shadow(0 0 0.25rem rgb(181, 181, 181));
-  position: relative;
+  padding: 0 40px !important;
 }
 
 a.nav-link {
-  margin: 0px;
+  margin: 10px;
   padding: 10px 20px !important;
-  color: #464646;
-  border-radius: 5px;
+  color: #9f9f9f;
+  border-radius: 50px;
 }
 
 a.nav-link:hover {
-  color: #ffffff;
-  background: #787878ab;
+  color: #888888;
+  background: #e7e7e7;
 }
+
 .navbar-toggler {
   outline: none;
   border: none;
@@ -1277,31 +1275,14 @@ a.nav-link:hover {
 }
 
 .navbar-toggler img {
-width: 100%;
-height: auto;
-padding-top: 10px;
-padding-bottom: 10px;
-transition: width 0.15s ease-in-out;
-}
-@media only screen and (max-width: 450px){
-nav {
-  font-family: 'Poppins', sans-serif;
-  border-radius: 50px !important;
-  padding: 10px 15px !important;
-  background: #d6d6d6;
-  filter: drop-shadow(0 0 0.25rem rgb(181, 181, 181));
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 90px;
   transition: width 0.15s ease-in-out;
 }
-.navbar-toggler img {
-width: 100%;
-height: autos;
-padding-top: 10px;
-padding-bottom: 10px;
-transition: 300ms;
-}
-}
+
 .navbar-toggler.clicked img {
-  width: 100%;
+  width: 90px;
 }
 .vr,hr{
 color: #696969;

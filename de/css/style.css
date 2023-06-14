@@ -837,8 +837,16 @@ text-transform: none;
 text-decoration: none;
 font-size: 11px;
 border-radius: 4px;
+padding-top: 2px;
 transition: 300ms;
 }
+.instagram .instagram-button2 p{
+  text-decoration: none;
+  font-size: 11px;
+  border-radius: 4px;
+  padding-top: 2px;
+  transition: 300ms;
+  }
 .instagram .instagram-button1:hover{
 background-color: #0068a0;
 }
@@ -2400,7 +2408,7 @@ padding-bottom: 2px;
 padding-bottom: 2px;
 }
 .nav-item .active{
-text-decoration: underline;
+  background-color: #c4c4c4;
 }
 .error404-header{
 height: 82vh;
@@ -2448,7 +2456,97 @@ font-weight: 700;
   margin-top: 130px;
 }
 }
-.header-content .section-title-news h1{
+.section-title-news{
+  background-color: #004b74;
+  width: 400px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 50px;
+  position: relative;
+  padding-top: 1px;
+}
+.section-title-news h1{
+  color: #fff;
+  font-weight: 600;
+  font-size: 50px;
+}
+.section-title-news p{
   color: #000;
-
+  font-weight: 400;
+  font-size: 13px;
+}
+.section-title-news-image{
+  margin-bottom: 20px;
+  width: 800px;
+}
+.section-title-news-image img{
+  width: 100%;
+}
+.news-header{
+  min-height: 60vh;
+  background-color: #e6e6e6;
+  }
+.news-header .header-content{
+  margin-top: 100px;
+}
+.newsbox{
+  background-color: #004b74;
+  text-align: center;
+  margin-bottom: 30px;
+  height: 30px;
+}
+.news-header .header-content{
+  margin-bottom: 120px;
+}
+.news-header .header-content h3{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 6px;
+}
+.press-gallery{
+  padding-top: 50px;
+  min-height: 50vh;
+}
+.article{
+  width: 340px;
+  height: 180px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.article img{
+  width: 100%;
+  border-radius: 5px;
+  transition: 500ms;
+  filter: saturate(0.5);
+}
+.article img:hover{
+  scale:calc(1.03);
+  filter: saturate(1);
+}
+.article h1{
+  padding-top: 5px;
+  font-size: 13px;
+  color: #000;
+  font-weight: 400;
+  text-transform: none;
+  height: 30px;
+}
+.article p{
+  font-size: 12px;
+  color: #3f0000;
+}
+@media only screen and (max-width: 768px){
+  .news-header .header-content h3{
+    font-size: 9px;
+    padding-top: 10px;
+    font-weight: 600;
+  }
+  .section-title-news{
+    width: 350px;
+  }
+  .section-title-news-image{
+    margin-bottom: 20px;
+    width: 350px;
+  }
 }

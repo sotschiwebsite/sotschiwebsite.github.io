@@ -837,8 +837,16 @@ text-transform: none;
 text-decoration: none;
 font-size: 11px;
 border-radius: 4px;
+padding-top: 2px;
 transition: 300ms;
 }
+.instagram .instagram-button2 p{
+  text-decoration: none;
+  font-size: 11px;
+  border-radius: 4px;
+  padding-top: 2px;
+  transition: 300ms;
+  }
 .instagram .instagram-button1:hover{
 background-color: #0068a0;
 }
@@ -2400,7 +2408,7 @@ padding-bottom: 2px;
 padding-bottom: 2px;
 }
 .nav-item .active{
-text-decoration: underline;
+  background-color: #c4c4c4;
 }
 .error404-header{
 height: 82vh;

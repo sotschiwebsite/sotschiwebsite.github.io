@@ -2550,3 +2550,24 @@ font-weight: 700;
     width: 350px;
   }
 }
+.lyrics-full p{
+color: #000;
+font-size: 12px;
+transition: 300ms;
+}
+.lyrics-full p:hover{
+  color: #4a0000;
+  transform: scale(1.1);
+  cursor: default;
+  }
+.lyrics-img{
+  height: 600px;
+}
+.lyrics-img img{
+  max-height: 100%;
+}
+@media only screen and (max-width: 768px){
+  .lyrics-full p{
+    font-size: 9px;
+    }
+}

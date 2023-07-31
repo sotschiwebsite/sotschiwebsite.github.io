@@ -97,7 +97,15 @@ body{
   width: 100%;
   max-width: 1300px;
   min-width: 600px;
-  filter: drop-shadow(0 0 10px rgba(200, 31, 76, 0.262)) brightness(0.4);
+  filter: drop-shadow(-100px -100px 100px rgba(255, 54, 40, 0.262)) brightness(0.9);
+}
+@media only screen and (max-width: 768px){
+  .image-overlay img{
+    width: 100%;
+    max-width: 1300px;
+    min-width: 600px;
+    filter: none;
+  }
 }
 .home-release {
 width: 500px;

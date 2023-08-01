@@ -2579,3 +2579,45 @@ transition: 300ms;
     font-size: 9px;
     }
 }
+.faqtitle h1{
+  font-size: 23px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+.faqtitle h1:hover{
+  color: #c45200;
+}
+.faqtitle a{
+  text-decoration: none;
+}
+.faqtitle a:hover{
+  color: #c45200;
+}
+.accordion {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.faq-header{
+  min-height: 20vh;
+  background: linear-gradient(95deg,rgba(0, 17, 25, 0.891) 20%, rgba(32, 55, 61, 0.505) 70%), url("https://i.postimg.cc/Jn08Zygq/FAQ-pic-min.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+.faq-header h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+.titlefaq{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.faqsection{
+  min-height: 50vh;
+}
+.faq-message-status{
+  padding-top: 15px;
+}
+.faq-message-status p{
+  color: black;
+}

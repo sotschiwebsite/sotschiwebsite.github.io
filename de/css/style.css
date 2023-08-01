@@ -82,7 +82,7 @@ body{
   background: #000;
 }
 .homesection {
-  background: linear-gradient(13deg, rgba(0, 32, 40, 0.785), rgba(17, 28, 30, 0.723)),url("https://i.postimg.cc/fytbk6GH/Sotchi-Gassl-2023-22-1-min.jpg") center no-repeat;
+  background: linear-gradient(13deg, rgba(40, 0, 0, 0.685), rgba(18, 1, 1, 0.723)),url("https://i.postimg.cc/T3nsK6PN/Cover-Art-Overlay.jpg") center no-repeat;
   min-height: 100vh;
   background-size: cover;
   position: relative;
@@ -97,7 +97,15 @@ body{
   width: 100%;
   max-width: 1300px;
   min-width: 600px;
-  filter: drop-shadow(0 0 10px rgba(200, 31, 76, 0.262)) brightness(0.4) hue-rotate(190deg);
+  filter: drop-shadow(-100px -100px 100px rgba(255, 54, 40, 0.262)) brightness(0.9);
+}
+@media only screen and (max-width: 768px){
+  .image-overlay img{
+    width: 100%;
+    max-width: 1300px;
+    min-width: 600px;
+    filter: none;
+  }
 }
 .home-release {
 width: 500px;
@@ -121,7 +129,7 @@ cursor: pointer;
 transition: 200ms;
 }
 .home-release img:hover{
-filter: drop-shadow(0 0 2rem rgba(0, 106, 118, 0.597));
+filter: drop-shadow(0 0 2rem rgba(255, 0, 0, 0.597));
 }
 .home-release h1{
 margin-top: 10px;
@@ -2549,4 +2557,67 @@ font-weight: 700;
     margin-bottom: 20px;
     width: 350px;
   }
+}
+.lyrics-full p{
+color: #000;
+font-size: 12px;
+transition: 300ms;
+}
+.lyrics-full p:hover{
+  color: #4a0000;
+  transform: scale(1.1);
+  cursor: default;
+  }
+.lyrics-img{
+  height: 600px;
+}
+.lyrics-img img{
+  max-height: 100%;
+}
+@media only screen and (max-width: 768px){
+  .lyrics-full p{
+    font-size: 9px;
+    }
+}
+.faqtitle h1{
+  font-size: 23px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+.faqtitle h1:hover{
+  color: #c45200;
+}
+.faqtitle a{
+  text-decoration: none;
+}
+.faqtitle a:hover{
+  color: #c45200;
+}
+.accordion {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.faq-header{
+  min-height: 20vh;
+  background: linear-gradient(95deg,rgba(0, 17, 25, 0.891) 20%, rgba(32, 55, 61, 0.505) 70%), url("https://i.postimg.cc/Jn08Zygq/FAQ-pic-min.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+.faq-header h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+.titlefaq{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.faqsection{
+  min-height: 50vh;
+}
+.faq-message-status{
+  padding-top: 15px;
+}
+.faq-message-status p{
+  color: black;
 }

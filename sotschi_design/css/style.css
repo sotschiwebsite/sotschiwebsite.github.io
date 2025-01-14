@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+html, body {
+    background-color: #efefef;
+    font-family: 'Roboto', sans-serif;
+    z-index: -1;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: 300ms;
+}
+a:hover{
+    color: rgb(238, 87, 87);
+}
+.top-bar{
+    z-index: 1;
+    background-color: #000000;
+    padding-top: 100px;
+}
+.logo{
+    width: 200px;
+    z-index: 1;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+.contact-logos{
+    color: white;
+    text-align: right;
+    font-size: 19px;
+    z-index: 1;
+}
+@media only screen and (max-width: 768px){
+    .logo{
+        width: 130px;
+        z-index: 1;
+    }
+    .contact-logos{
+        text-align: right;
+        margin-right: 50px;
+        font-size: 15px;
+    }
+}
+.gallery-element{
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.gallery-element img{
+    width: 100%;
+    border-radius: 8px;
+    transition: 300ms;
+}
+.gallery-element img:hover{
+    scale: 0.98;
+    filter: brightness(1.5);
+}
+footer{
+    background-color: rgb(109, 109, 109);
+    min-height: 300px;
+    padding-top: 50px;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+.mockup-section{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.mockup{
+    width: 500px;
+    padding: 50px;
+    position: relative;
+    transition: 300ms;
+}
+.mockup:hover{
+    transform: scale(1.03);
+}
+.mockup img{
+    width: 100%;
+}
+.bg-image{
+    width: 900px;
+    margin-top: 50px;
+    position: absolute;
+    height: auto;
+    opacity: 0.1;
+    padding: 50px;
+}
+.bg-image img{
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .bg-image{
+        width: 100%;
+        position: absolute;
+        height: auto;
+        opacity: 0.1;
+        padding: 50px;
+    }
+    .bg-image img{
+        width: 100%;
+    }
+}
+.spikes {
+    position: relative;
+    background: #000000;
+    height: 50px;
+    transform: rotate(180deg);
+  }
+  
+  .spikes::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 25px;
+    background-size: 25px 100%;
+    background-image: linear-gradient(135deg, #000000 25%, transparent 25%), linear-gradient(225deg, #000000 25%, transparent 25%);
+    background-position: 0 0;
+  }
+  .spikes-2 {
+    position: relative;
+    background: #000000;
+    height: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .spikes-2::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 25px;
+    background-size: 25px 100%;
+    background-image: linear-gradient(135deg, #000000 25%, transparent 25%), linear-gradient(225deg, #000000 25%, transparent 25%);
+    background-position: 0 0;
+  }
+  .email {
+    display: inline-flex; /* Makes the icon and text inline */
+    align-items: center; /* Vertically aligns the content */
+    gap: 10px; /* Adds space between the icon and the text */
+    margin-right: 30px;
+}
+.email i {
+    font-size: 16px; /* Adjust icon size as needed */
+}
+
+.email p {
+    margin: 0; /* Removes default paragraph margin */
+    font-size: 14px;
+}
+.instagram {
+    display: inline-flex; /* Makes the icon and text inline */
+    align-items: center; /* Vertically aligns the content */
+    gap: 10px; /* Adds space between the icon and the text */
+    margin-right: 30px;
+}
+.instagram i {
+    font-size: 16px; /* Adjust icon size as needed */
+}
+
+.instagram p {
+    margin: 0; /* Removes default paragraph margin */
+    font-size: 14px;
+}
+.page-title{
+    margin-bottom: 60px;
+}
+.bg-image-weiher{
+    width: 700px;
+    position: absolute;
+    height: auto;
+    opacity: 0.1;
+    padding: 50px;
+}
+.bg-image-weiher img{
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .bg-image-weiher{
+        width: 100%;
+        position: absolute;
+        height: auto;
+        opacity: 0.1;
+        padding: 50px;
+    }
+    .bg-image-weiher img{
+        width: 100%;
+    }
+}
+.logo-footer {
+    width: 150px;
+    z-index: 1;
+    margin: 0 auto; /* Horizontally center */
+    display: flex;
+    justify-content: center; /* Center horizontally inside parent */
+    align-items: center; /* Center vertically inside parent */
+}
+.logo-footer img {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+@media only screen and (max-width: 768px){
+    .logo-footer{
+        width: 100px;
+        z-index: 1;
+    }
+    .contact-logos{
+        text-align: right;
+        margin-right: 50px;
+        font-size: 15px;
+    }
+}
+.impressum{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.impressum h1{
+    font-size: 40px;
+}
+.impressum h3{
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+.impressum p{
+    font-size: 19px;
+    line-height: 15px;
+}
+@media only screen and (max-width: 768px){
+    .impressum{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .impressum h1{
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+    .impressum h3{
+        font-size: 20px;
+        padding-bottom: 20px;
+        line-height: 0px;
+    }
+    .impressum p{
+        font-size: 15px;
+        line-height: 10px;
+    }
+}
+/* Main menu positionning */
+.main-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background: #000000;
+    opacity: 0;
+    z-index: -1;
+    visibility: hidden;
+    transition: all .375s;
+}
+
+.main-nav.is-open {
+    opacity: 1;
+    z-index: 100;
+    visibility: visible;
+}
+
+/* Yellow band effect */
+.main-nav::before {
+	 content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -15px;
+    background: #760000;
+    transform-origin: 0 0;
+    transform: skew(-14deg) translateX(-120%);
+    transition: all .275s .1s;
+}
+
+.main-nav.is-open::before {
+    transform: skew(-14deg) translateX(0);
+}
+
+/* Skewing effect on menu links */
+.main-nav ul {
+    display: inline-flex;
+    flex-direction: column;
+    height: 93%; /* Should be 100%, but we have a notice message :D */
+    align-items: flex-end;
+    justify-content: center;
+    transform: translateX(-18%) skew(-16deg);
+}
+
+.main-nav li {
+    display: block;
+    margin: .5rem 0;
+    text-align: right;
+    transform: skew(16deg);
+}
+
+/* Apparition effect on links */
+.main-nav a {
+    opacity: 0;
+    color: #ffff;
+    transform: translateY(-10px);
+}
+
+.main-nav.is-open a {
+    opacity: 1;
+    transform: translateY(0);
+}
+.main-nav li:nth-child(1) a {
+	transition: all 275ms 175ms
+}
+.main-nav li:nth-child(2) a {
+	transition: all 275ms 225ms
+}
+.main-nav li:nth-child(3) a {
+	transition: all 275ms 275ms
+}
+.main-nav li:nth-child(4) a {
+	transition: all 275ms 325ms
+}
+.main-nav li:nth-child(5) a {
+	transition: all 275ms 375ms
+}
+
+
+/* Decoration */
+.main-nav ul,
+.main-nav li {
+	list-style: none;
+	padding: 0;
+}
+.main-nav a {
+	display: block;
+	padding: 12px 0;
+    color: #ffff;
+	font-size: 1.4em;
+	text-decoration: none;
+	font-weight: bold;
+}
+.main-nav a:hover {
+    color: #b1c8ff;
+}
+
+/* Burger Style: @see: https://codepen.io/CreativeJuiz/full/oMZNXy */
+.open-main-nav {
+	position: absolute;
+	top: 15px;
+	padding-top: 20px;
+	right: 15px;
+	z-index: 1000;
+	background: none;
+	border: 0;
+	cursor: pointer;
+}
+.open-main-nav:focus {
+	outline: none;
+}
+.burger {
+	position: relative;
+	display: block;
+	width: 28px;
+	height: 4px;
+	margin: 50px 0px 0px 0px;
+	transform: skew(5deg);
+	transition: all .275s;
+}
+
+.burger:after,
+.burger:before {
+	content: '';
+	display: block;
+	height: 100%;
+	background: #ffffff;
+	transition: all .275s;
+}
+
+.burger:after {
+	transform: translateY(-12px) translateX(-2px) skew(-20deg);
+}
+
+.burger:before {
+	transform: translateY(-16px) skew(-10deg);
+}
+
+/* Toggle State part */
+.is-open .burger {
+	transform: skew(5deg) translateY(-8px) rotate(-45deg);
+}
+
+.is-open .burger:before {
+	transform: translateY(0px) skew(-10deg) rotate(75deg);
+}
+
+.is-open .burger:after {
+	transform: translateY(-12px) translateX(10px) skew(-20deg);
+    opacity: 0;
+}
+
+/* MENU Text part */
+
+.burger-text {
+	display: block;
+	font-size: .675rem;
+	letter-spacing: .05em;
+	margin-top: .5em;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-align: center;
+	color: #ffffff;
+}
+@media only screen and (min-width: 768px){
+    .device {
+        display: none;
+    }
+    
+    [id="slowmo"] span {
+        display: block;
+        font-weight: normal;
+    }
+    
+    [id="slowmo"]:hover,
+    [id="slowmo"]:focus {
+        background: #5A3B5D;
+        color: #FEDC2A;
+    }
+    
+    [id="slowmo"].is-slowmo span:after {
+        content: 'Activated';
+        display: block;
+        font-weight: bold;
+    }
+    
+    /* When slowmotion is activated */
+    
+    .is-slowmo + .device .open-main-nav .burger,
+    .is-slowmo + .device .open-main-nav .burger:before,
+    .is-slowmo + .device .open-main-nav .burger:after,
+    .is-slowmo + .device .main-nav,
+    .is-slowmo + .device .main-nav::before,
+    .is-slowmo + .device .main-nav a {
+        transition-duration: 3s;
+    }
+    .is-slowmo + .device .main-nav li:nth-child(1) a {
+        transition-delay: 1750ms
+    }
+    .is-slowmo + .device .main-nav li:nth-child(2) a {
+        transition-delay: 2250ms
+    }
+    .is-slowmo + .device .main-nav li:nth-child(3) a {
+        transition-delay: 2750ms
+    }
+    .is-slowmo + .device .main-nav li:nth-child(4) a {
+        transition-delay: 3250ms
+    }
+    .is-slowmo + .device .main-nav li:nth-child(5) a {
+        transition-delay: 3750ms
+    }
+}
+@media only screen and (max-width: 768px){
+    .contact-logos{
+        display: none;
+    }
+    .top-bar{
+        z-index: 1;
+        background-color: #000000;
+        padding-top: 80px;
+        padding-left: 10px;
+    }
+    .burger {
+        position: relative;
+        display: block;
+        width: 40px;
+        height: 4px;
+        margin: 60px 10px 0px 20px;
+        background: #ffffff;
+        transform: skew(5deg);
+        transition: all .275s;
+    }
+    .burger:after,
+.burger:before {
+	content: '';
+	display: block;
+	height: 100%;
+	background: #ffffff;
+	transition: all .275s;
+}
+
+.burger:after {
+	transform: translateY(-12px) translateX(-2px) skew(-20deg);
+}
+
+.burger:before {
+	transform: translateY(-16px) skew(-10deg);
+}
+    
+[id="slowmo"] span {
+    display: block;
+    font-weight: normal;
+}
+
+[id="slowmo"]:hover,
+[id="slowmo"]:focus {
+    background: #5A3B5D;
+    color: #fe2a2a;
+}
+
+[id="slowmo"].is-slowmo span:after {
+    content: 'Activated';
+    display: block;
+    font-weight: bold;
+}
+}

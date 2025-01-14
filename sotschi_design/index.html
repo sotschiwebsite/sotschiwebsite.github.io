@@ -9,6 +9,9 @@
     <link href="fontawesome/css/solid.css" rel="stylesheet">
     <link href="fontawesome/css/brands.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Sotschi - Design</title>
 </head>
 <style>
@@ -89,7 +92,7 @@
                 <h1>Portfolio <i style="font-size: 30px;" class="fa fa-image"></i></h1>
                 <p>Explore a collection of graphic designs I’ve created over the past few months! This page is regularly updated to give you a clear idea of the quality and creativity you can expect when choosing Sotschi.</p>
             </div>
-            <div class="row">
+            <div class="row" data-aos="fade-left" data-aos-duration="1000" data-aos-once='true'>
                 <div class="col-md-4 col-sm-6 col-12 justify-content-center d-flex">
                     <div class="gallery-element">
                     <a
@@ -119,7 +122,7 @@
                     </div>
                 </div>
             </div>
-                <section class="mockup-section">
+                <section class="mockup-section"  data-aos="fade-right" data-aos-duration="1000" data-aos-once='true'>
                     <div class="skewed"></div>
                     <div class="row align-items-center">
                         <div class="col-12 justify-content-center d-flex">
@@ -139,7 +142,7 @@
                         </div>
                     </div>
                 </section>
-                <div class="row">
+                <div class="row"  data-aos="fade-left" data-aos-duration="1000" data-aos-once='true'>
                     <div class="col-md-4 col-sm-6 col-12 justify-content-center d-flex">
                         <div class="gallery-element">
                             <a  data-fslightbox="blacklight-v2" href="gallery/blacklightv2/Feed.jpg">
@@ -167,7 +170,7 @@
                             <a  data-fslightbox="bausa" href="gallery/bausa/nightliner.jpg"></a>
                         </div>
                     </div>
-                    <section class="mockup-section" style="margin-bottom: 70px;">
+                    <section class="mockup-section" style="margin-bottom: 70px;" class="row"  data-aos="fade-right" data-aos-duration="1000" data-aos-once='true'>
                         <div class="row align-items-center">
                             <div class="col-12 justify-content-center d-flex">
                                 <div class="bg-image-weiher">
@@ -187,6 +190,8 @@
                             </div>
                         </div>
                     </section>
+                </div>
+                <div class="row" data-aos="fade-left" data-aos-duration="1000" data-aos-once='true'>
                     <div class="col-md-4 col-sm-6 col-12 justify-content-center d-flex">
                         <div class="gallery-element">
                             <a  data-fslightbox="escape" href="gallery/escape/Feed.jpg">
@@ -211,7 +216,7 @@
                         </div>
                     </div>
                 </div>
-                <section class="mockup-section" style="margin-bottom: 70px;">
+                <section class="mockup-section" style="margin-bottom: 70px;"  data-aos="fade-right" data-aos-duration="1000" data-aos-once='true'>
                     <div class="row align-items-center">
                         <div class="col-12 justify-content-center d-flex">
                             <div class="bg-image-weiher">
@@ -231,7 +236,7 @@
                         </div>
                     </div>
                 </section>
-                <div class="row">
+                <div class="row" data-aos="fade-left" data-aos-duration="1000" data-aos-once='true'>
                     <div class="col-md-4 col-sm-6 col-12 justify-content-center d-flex">
                         <div class="gallery-element">
                             <a  data-fslightbox="whitenight" href="gallery/whitenight/Feed.jpg">
@@ -264,7 +269,7 @@
                         </div>
                     </div>
                 </div>
-                <section class="mockup-section" style="margin-top: 50px; margin-bottom: 70px;">
+                <section class="mockup-section" style="margin-top: 50px; margin-bottom: 70px;"  data-aos="fade-right" data-aos-duration="1000" data-aos-once='true'>
                     <div class="row align-items-center">
                         <div class="col-12 justify-content-center d-flex">
                             <div class="bg-image-weiher">
@@ -338,6 +343,10 @@
   <!-- End of .container -->
   <script src="js/script.js"></script>
     <script src="lightbox/fslightbox.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script>
         fsLightboxInstances["laluna"].props.showThumbsOnMount = true;
         fsLightboxInstances["loox-lightbox"].props.showThumbsOnMount = true;

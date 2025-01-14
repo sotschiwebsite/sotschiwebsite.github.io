@@ -2621,3 +2621,24 @@ transition: 300ms;
 .faq-message-status p{
   color: black;
 }
+.impressum{
+  margin-top: 50px;
+  min-height: 500px;
+}
+.impressum h1,
+.impressum h2,
+.impressum p{
+  color:black;
+}
+.impressum h1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+}
+.impressum h2{
+  font-weight: bold;
+  font-size: 24px;
+}
+.impressum .col-md-6{
+  padding: 50px;
+}
